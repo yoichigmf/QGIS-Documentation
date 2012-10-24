@@ -578,6 +578,19 @@ rst_epilog = """
    :width: 1.5em
 .. |heatmap| image:: /static/common/heatmap.png
    :width: 1.5em
+.. |basic| image:: /static/common/basic.png
+.. |moderate| image:: /static/common/moderate.png
+.. |hard| image:: /static/common/hard.png
+.. |note| image:: /static/common/comment.png
+.. |MOD| replace:: Module:
+.. |LS| replace:: Lesson:
+.. |TY| replace:: Try yourself...
+.. |FA| replace:: Follow along:
+.. |RF| replace:: Results for
+.. |WN| replace:: What's next?
+.. |FR| replace:: Further reading
+.. |IC| replace:: In conclusion
+   
 """
 
 

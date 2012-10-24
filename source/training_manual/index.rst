@@ -5,10 +5,9 @@ QGIS Training Manual
 ====================
 
 .. toctree::
-   :maxdepth: 3
-   :numbered:
+   :maxdepth: 2
 
-   foreword/index
+   foreword/foreword
    introduction/index
    basic_map/index
    vector_classification/index
