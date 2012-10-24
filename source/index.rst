@@ -16,6 +16,7 @@ All documentation is written in RST, saved in Github, and po/pot translatable.
     gentle_gis_introduction/index
     pyqgis_developer_cookbook/index
     qgis_governance/index
+    training_manual/index
 
 
 User manual
@@ -56,3 +57,10 @@ QGIS Governance
 
 :ref:`QGIS Governance <QGIS-Governance>`. This document descibes official QGIS
 governance, bylaws, procedures etc.
+
+QGIS Training Manual
+--------------------
+
+:ref:`QGIS Training Manual <QGIS-Training-Manual>`. This training manual is
+intended to provide all the materials needed to run a 5 day course on QGIS,
+PostgreSQL and PostGIS.
