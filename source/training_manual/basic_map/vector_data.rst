@@ -1,5 +1,5 @@
 |LS| Working with Vector Data
-===============================================================================
+=============================
 
 Vector data is arguably the most common kind of data you will find in the daily
 use of GIS. It describes geographic data in terms of points, that may be
@@ -10,7 +10,7 @@ connected into lines and polygons. Every object in a vector dataset is called a
 how to load vector datasets into a map.
 
 |basic| |FA| Viewing layer attributes
--------------------------------------------------------------------------------
+-------------------------------------
 
 It's important to know that the data you will be working with does not only
 represent **where** objects are in space, but also tells you **what** those
@@ -20,13 +20,9 @@ From the previous exercise, you should have the :guilabel:`streets` layer
 loaded in your map. What you can see right now is merely the position of the
 roads.
 
-
 To see all the data available to you:
 
-* Click on this button:
-
-.. image:: /static/training_manual/vector/004.png
-   :align: center
+* Click on this button |mActionOpenTable| :sup:`Open Attribute Table`:
 
 It will show you a table with more data about the :guilabel:`streets` layer.
 This extra data is called *attribute data*. The lines that you can see on your
@@ -44,7 +40,7 @@ city blocks.
 .. _backlink-vector-load-shapefiles-1:
 
 |basic| |FA| Loading vector data from shapefiles
--------------------------------------------------------------------------------
+------------------------------------------------
 
 The Shapefile is a specific file format that allows you to store GIS data in an
 associated group of files. Each layer consists of several files with the same
@@ -62,7 +58,7 @@ instructions on how to add vector layers.
 .. _backlink-vector-load-from-database-1:
 
 |basic| |FA| Loading vector data from a database
--------------------------------------------------------------------------------
+------------------------------------------------
 
 Databases allow you to store a large volume of associated data in one file. You
 may already be familiar with a database management system (DBMS) such as
@@ -70,25 +66,22 @@ Microsoft Access. GIS applications can also make use of databases. GIS-specific
 DBMSes (such as PostGIS) have extra functions, because they need to handle
 spatial data.
 
-* Click on this icon:
-
-.. image:: /static/training_manual/vector/005.png
-   :align: center
+* Click on this icon |mActionAddSpatiaLiteLayer| :sup:`Add SpatiaLite Layer`:
 
 (If you're sure you can't see it at all, check that the :guilabel:`Manage
 Layers` toolbar is enabled.)
 
 It will give you a new dialog.  In this dialog:
 
-* Click the :guilabel:`New` button.
+* Click the **[New]** button.
 * In the same folder as the other data, you should find the file
-  :guilabel:`land_use.db`. Select it and click :guilabel:`Open`.
+  :file:`land_use.db`. Select it and click **[Open]**.
 
 You will now see the first dialog again. Notice that the dropdown select above
 the three buttons now reads "land_use.db@...", followed by the path of the
 database file on your computer.
 
-* Click the :guilabel:`Connect` button. You should see this in the previously
+* Click the **[Connect]** button. You should see this in the previously
   empty box:
 
 .. image:: /static/training_manual/vector/007.png
@@ -105,7 +98,7 @@ database file on your computer.
 
 
 |FA| Reordering the layers
--------------------------------------------------------------------------------
+--------------------------
 
 The layers in your Layers list are drawn on the map in a certain order. The
 layer at the bottom of the list is drawn first, and the layer at the top is
@@ -140,12 +133,12 @@ To resolve this problem:
    :align: center
 
 |IC|
--------------------------------------------------------------------------------
+----
 
 Now you've added all the layers you need from several different sources.
 
 |WN|
--------------------------------------------------------------------------------
+----
 
 Using the random palette automatically assigned when loading the layers, your
 current map is probably not easy to read. It would be preferable to assign your

@@ -1,10 +1,10 @@
 |LS| Symbology
 ==============
 
-The symbology of a layer is its visual appearance on the map.
-The basic strength of GIS over other ways of representing data with spatial
-aspects is that with GIS, you have a dynamic visual representation of the data
-you're working with.
+The symbology of a layer is its visual appearance on the map. The basic
+strength of GIS over other ways of representing data with spatial aspects is
+that with GIS, you have a dynamic visual representation of the data you're
+working with.
 
 Therefore, the visual appearance of the map (which depends on the symbology of
 the individual layers) is very important. The end user of the maps you produce
@@ -38,11 +38,11 @@ In the :guilabel:`Properties` window:
 .. image:: /static/training_manual/symbology/052.png
    :align: center
 
-* Click the :guilabel:`Change` button next to the :guilabel:`Color` label.
+* Click the **[Change]** button next to the :guilabel:`Color` label.
 
 A standard color dialog will appear.
 
-* Choose a grey color and click :guilabel:`OK`.
+* Choose a grey color and click **[OK]**.
 * Click :guilabel:`OK` again in the :guilabel:`Layer Properties` window, and
   you will see the color change being applied to the layer.
 
@@ -53,7 +53,7 @@ A standard color dialog will appear.
 .. _backlink-symbology-colors-1:
 
 |basic| |TY|
--------------------------------------------------------------------------------
+------------
 
 Change the :guilabel:`rural` layer to a new color that you associate with rural
 farming areas.
@@ -61,7 +61,7 @@ farming areas.
 :ref:`Check your results <symbology-colors-1>`
 
 |basic| |FA| Changing symbol structure
--------------------------------------------------------------------------------
+--------------------------------------
 
 This is good stuff so far, but there's more to a layer's symbology than just
 its color. Next we want to change the color of the farms (the :guilabel:`rural`
@@ -75,7 +75,7 @@ Under the :guilabel:`Style` tab, you will see the same kind of dialog as
 before. This time, however, you're doing more than just quickly changing the
 color.
 
-* Click on the :guilabel:`Change...` button below the color display:
+* Click on the **[Change...]** button below the color display:
 
 .. image:: /static/training_manual/symbology/053.png
    :align: center
@@ -86,7 +86,7 @@ The :guilabel:`Symbol properties` dialog will appear.
   to the :guilabel:`Color` label (if you haven't done so already during the
   previous lesson).
 * In the dialog that appears, choose a new color (that seems to suit a farm).
-* Click :guilabel:`OK`, but only once.
+* Click **[OK]**, but only once.
 
 Next, we want to get rid of the lines between all the farms.
 
@@ -101,7 +101,7 @@ Now the :guilabel:`rural` layer won't have any lines between farms.
 .. _backlink-symbology-structure-1:
 
 |basic| |TY|
--------------------------------------------------------------------------------
+------------
 
 * Change the :guilabel:`urban` layer's symbology so that it is gray and without
   outlines.
@@ -111,7 +111,7 @@ Now the :guilabel:`rural` layer won't have any lines between farms.
 :ref:`Check your results <symbology-structure-1>`
 
 |moderate| |FA| Scale-based visibility
--------------------------------------------------------------------------------
+--------------------------------------
 
 Sometimes you will find that a layer is not suitable for a given scale. For
 example, a dataset of all the continents may have low detail, and not be very
@@ -138,7 +138,7 @@ To enable scale-based rendering:
    :align: center
 
 * Change the :guilabel:`Maximum` value to :kbd:`100000`.
-* Click :guilabel:`OK`.
+* Click **[OK]**.
 
 Test the effects of this by zooming in and out in your map, noting when the
 :guilabel:`streets` layer disappears and reappears.
@@ -150,7 +150,7 @@ Test the effects of this by zooming in and out in your map, noting when the
       :align: center
 
 |moderate| |FA| Adding symbol layers
--------------------------------------------------------------------------------
+------------------------------------
 
 Now that you know how to change simple symbology for layers, the next step is
 to create more complex symbology. QGIS allows you to do this using symbol
@@ -206,7 +206,7 @@ It's fun! But it probably has too many colors to use in a real map...
 .. _backlink-symbology-layers-1:
 
 |moderate| |TY|
--------------------------------------------------------------------------------
+---------------
 
 * Create a simple, but not distracting texture for the :guilabel:`rural` layer
   using the methods above.
@@ -215,7 +215,7 @@ It's fun! But it probably has too many colors to use in a real map...
 
 
 |moderate| |FA| Enabling symbol levels
--------------------------------------------------------------------------------
+--------------------------------------
 
 When symbol layers are rendered, they are also rendered in a sequence, similar
 to how the different map layers are rendered. This means that in some cases,
@@ -258,10 +258,10 @@ The map will now look like this:
 
 When you're done, remember to save the symbol itself so as not to lose your
 work if you change the symbol again in the future. You can save your current
-symbol style by clicking the :guilabel:`Save Style ...` button under the
+symbol style by clicking the **[Save Style...]** button under the
 :guilabel:`Style` tab of the :guilabel:`Layer Properties` dialog. Save your
-style under :kbd:`exercise_data/styles`.  You can load a previously saved style
-at any time by clicking the :guilabel:`Load Style ...` button. Before you
+style under :file:`exercise_data/styles`.  You can load a previously saved style
+at any time by clicking the **[Load Style...]** button. Before you
 change a style, keep in mind that any unsaved style you are replacing will be
 lost.
 
@@ -285,7 +285,7 @@ white line running in the middle to make them resemble a real road.
 .. _backlink-symbology-levels-2:
 
 |hard| |TY|
--------------------------------------------------------------------------------
+-----------
 
 Symbol levels also work for classified layers (i.e., layers having multiple
 symbols).  Since we haven't covered classification yet, you will work with some
@@ -305,7 +305,7 @@ rudimentary preclassified data.
 
 
 |moderate| |FA| Symbol layer types
--------------------------------------------------------------------------------
+----------------------------------
 
 In addition to setting fill colors and using predefined patterns, you can use
 different symbol layer types entirely. The only type we've been using up to now
@@ -316,7 +316,7 @@ Each type of vector (point, line and polygon) has its own set of symbol layer
 types. First we will look at the types available for points.
 
 Point symbol layer types
-...............................................................................
+........................
 
 * Change the symbol properties for the :guilabel:`places` layer:
 
@@ -335,7 +335,7 @@ Point symbol layer types
   :kbd:`2,00` and :guilabel:`symbol height` of :kbd:`4,00`.
 
 Line symbol layer types
-...............................................................................
+.......................
 
 To see the various options available for line data:
 
@@ -345,7 +345,7 @@ To see the various options available for line data:
 .. image:: /static/training_manual/symbology/030.png
    :align: center
 
-* Click on the :guilabel:`Change` button next to the :guilabel:`Marker` label.
+* Click on the **[Change]** button next to the :guilabel:`Marker` label.
 * Change the symbol properties to match this dialog:
 
 .. image:: /static/training_manual/symbology/031.png
@@ -365,7 +365,7 @@ you prefer, you can change the symbol layer in question back to the way it was
 before.
 
 Polygon symbol layer types
-...............................................................................
+..........................
 
 To see the various options available for polygon data:
 
@@ -384,8 +384,8 @@ To see the various options available for polygon data:
 
 * Add a new symbol layer with a normal :guilabel:`Simple fill`.
 * Make it gray with no outlines. 
-* Move it underneath the point pattern symbol layer with the :guilabel:`Move
-  down` button:
+* Move it underneath the point pattern symbol layer with the **[Move
+  down]** button:
 
 .. image:: /static/training_manual/symbology/035.png
    :align: center
@@ -395,7 +395,7 @@ benefit that you can change the size, shape and distance of the individual dots
 that make up the texture.
 
 |hard| |FA| Creating a custom SVG fill
--------------------------------------------------------------------------------
+--------------------------------------
 
 .. note::  To do this exercise, you will need to have the free vector editing
    software Inkscape installed.
@@ -424,7 +424,7 @@ programs, like Corel.
    :align: center
 
 * Click and drag on the page to draw an ellipse. To make the ellipse turn into
-  a circle, hold the :kbd:`ctrl` button while you're drawing it.
+  a circle, hold the :kbd:`Ctrl` button while you're drawing it.
 * Right-click on the circle you just created and open its :guilabel:`Fill and
   Stroke`:
 
@@ -466,7 +466,7 @@ In QGIS:
 .. image:: /static/training_manual/symbology/045.png
    :align: center
 
-* Find your SVG image via the :guilabel:`Browse` button:
+* Find your SVG image via the **[Browse]** button:
 
 .. image:: /static/training_manual/symbology/046.png
    :align: center
@@ -482,19 +482,19 @@ Your rural layer should now have a texture like the one on this map:
    :align: center
 
 |IC|
--------------------------------------------------------------------------------
+----
 
 Changing the symbology for the different layers has transformed a collection of
 vector files into a legible map. Not only can you see what's happening, it's
 even nice to look at!
 
 |FR|
--------------------------------------------------------------------------------
+----
 
 `Examples of Beautiful Maps <http://gis.stackexchange.com/questions/3083/examples-of-beautiful-maps>`_
 
 |WN|
--------------------------------------------------------------------------------
+----
 
 Changing symbols for whole layers is useful, but the information contained
 within each layer is not yet available to someone reading these maps. What are
