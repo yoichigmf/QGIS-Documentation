@@ -1,8 +1,9 @@
+********
 Foreword
-========
+********
 
 Background
-----------
+==========
 
 In 2008 we launched the `Gentle Introduction to GIS
 <http://linfiniti.com/dla>`_, a completely free, open content resource for
@@ -17,7 +18,7 @@ detailed functional overview of the QGIS application. However, it is not
 structured as a tutorial, but rather as a reference guide. At Linfiniti
 Consulting CC. we frequently run training courses and have realised that a
 third resource is needed - one that leads the reader sequentially through
-learning the key aspects of QGIS in a trainer-trainee format - which prompted
+learning the key aspects of QGIS in a trainer-trainee format --- which prompted
 us to produce this work.
 
 This training manual is intended to provide all the materials needed to run a 5
@@ -26,7 +27,7 @@ content to suit novice, intermediate and advanced users alike and has many
 exercises complete with annotated answers throughout the text.
 
 License
--------
+=======
 
 .. image:: /static/training_manual/license.png 
 
@@ -75,7 +76,7 @@ guidelines are as follows:
 
 
 Sponsoring Chapters
--------------------
+===================
 
 This work is by no means a complete treatise on all the things you can do with
 QGIS and we encourage others to add new materials to fill any gaps. Linfiniti
@@ -84,7 +85,7 @@ service, with the understanding that all such works produced should become part
 of the core content and be published under the same license.
 
 Authors
--------
+=======
 
 * Rüdiger Thiede (rudi@linfiniti.com) - Rudi has written the QGIS instructional
   materials and parts of the PostGIS materials.
@@ -97,17 +98,17 @@ Authors
   and editorial advice during the creation of this work.
 
 Individual Contributors
------------------------
+=======================
 
 Your name here!
 
 Sponsors
---------
+========
 
 * Cape Peninsula University of Technology
 
 Data
-----
+====
 
 The sample data that accompanies this resource is freely available and comes
 from the following sources:
@@ -118,7 +119,7 @@ from the following sources:
 
 
 Latest Version
---------------
+==============
 
 You can always obtain the latest version of this document by visiting our `home
 page <http://readthedocs.org/builds/the-free-qgis-training-manual/>`_ which is

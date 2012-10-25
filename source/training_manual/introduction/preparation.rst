@@ -1,5 +1,5 @@
 |LS| Adding your first layer
-===============================================================================
+============================
 
 We will start the application, and create a basic map to use for examples and
 exercises.
@@ -23,47 +23,40 @@ Let's get started right away!
 .. _backlink-interface-preparation-1:
 
 |basic| |FA| Prepare a map
--------------------------------------------------------------------------------
+--------------------------
 
 * Open QGIS. You will have a new, blank map.
 
-* Look for the :guilabel:`Add Vector Layer` button:
-
-.. image:: /static/training_manual/interface/002.png
-   :align: center
-
+* Look for the |mActionAddNonDbLayer| :sup:`Add Vector Layer` button:
 * Click on it to open the following dialog:
 
-.. image:: /static/training_manual/interface/003.png
+.. figure:: /static/training_manual/interface/003.png
    :align: center
 
-* Click on the :guilabel:`Browse` button and navigate to the file
-  :kbd:`exercise_data/streets.shp` (in your course directory). With this file
-  selected, click :guilabel:`Open`. You will see the original dialog, but with
-  the file path filled in. Click :guilabel:`Open` here as well. The data you
+* Click on the **[Browse]** button and navigate to the file
+  :file:`exercise_data/streets.shp` (in your course directory). With this file
+  selected, click **[Open]**. You will see the original dialog, but with
+  the file path filled in. Click **[Open]** here as well. The data you
   specified will now load.
 
 Congratulations! You now have a basic map. Now would be a good time to save
 your work.
 
-* Click on the :guilabel:`Save As` button:
-
-.. image:: /static/training_manual/interface/004.png
-   :align: center
-
-* Save the map under :kbd:`exercise_data/` and call it :kbd:`basic_map.qgs`.
+* Click on the |mActionFileSaveAs| :sup:`Save As` button:
+* Save the map under :file:`exercise_data/` and call it :file:`basic_map.qgs`.
 
 :ref:`Check your results <interface-preparation-1>`
 
 |IC|
--------------------------------------------------------------------------------
+----
 
 You've learned how to add a layer and create a basic map!
 
 |WN|
--------------------------------------------------------------------------------
+----
 
-Now you're familiar with the function of the :guilabel:`Add Vector Layer`
-button, but what about all the others? How does this interface work? Before we
-go on with the more involved stuff, let's first take a good look at the general
-layout of the QGIS interface. This is the topic of the next lesson.
+Now you're familiar with the function of the |mActionAddNonDbLayer|
+:sup:`Add Vector Layer` button, but what about all the others? How does this
+interface work? Before we go on with the more involved stuff, let's first take
+a good look at the general layout of the QGIS interface. This is the topic of
+the next lesson.
