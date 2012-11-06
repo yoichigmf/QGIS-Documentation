@@ -1,4 +1,5 @@
 {% extends "basic/layout.html" %}
+
 {% set script_files = script_files + ['_static/bootstrap/js/bootstrap.js'] %}
 {% set css_files = css_files + ['_static/bootstrap/css/bootstrap.min.css'] %}
 {% set css_files = css_files + ['_static/bootstrap/css/bootstrap-responsive.min.css'] %}
@@ -18,7 +19,9 @@
     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
 {% endblock %}
 
-{% block sidebar %}
+
+{% block content %}
+
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container-fluid">
@@ -27,7 +30,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">Project name</a>
+          <a class="brand" href="#">QGIS</a>
           <div class="nav-collapse collapse">
             <p class="navbar-text pull-right">
               Logged in as <a href="#" class="navbar-link">Username</a>
@@ -41,9 +44,7 @@
         </div>
       </div>
     </div>
-{% endblock %}
 
-{% block content %}
     <div class="container-fluid">
       <div class="row-fluid">
         <div class="span3">
@@ -60,21 +61,13 @@
         <div class="span9">
           <div cclass="hero-unit">
 
-          {%- block header %}
-          {% endblock %}
+            {%- block relbar2 %}{{ relbar() }}{% endblock %}
 
-          {%- block relbar1 %}
-            {{ relbar() }}
-          {% endblock %}
-
-          {%- block content %}
-            {%- block document %}
-              {% block body %} {% endblock %}
-            {%- endblock %}
-          {%- endblock %}
+            {% block body %} {% endblock %}
 
           </div>
         </div><!--/span-->
       <hr>
     </div><!--/.fluid-container-->
 {% endblock %}
+
