@@ -3,9 +3,12 @@
 
 /* color for disclaimer (used when files need to be revised)*/
 .disclaimer {
+    display:block;
+    margin-top:5px;
     color:red;
     border:2px solid red;
     padding:5px 50px 5px 50px;
+
 }
 body {
     padding-top: 60px;

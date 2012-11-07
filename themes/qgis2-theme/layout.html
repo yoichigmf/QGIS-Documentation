@@ -3,6 +3,7 @@
 {% set script_files = script_files + ['_static/bootstrap/js/bootstrap.js'] %}
 {% set css_files = css_files + ['_static/bootstrap/css/bootstrap.min.css'] %}
 {% set css_files = css_files + ['_static/bootstrap/css/bootstrap-responsive.min.css'] %}
+{% set css_files = css_files + ['_static/qgis.css'] %}
 
 
 {% block extrahead %}
@@ -19,6 +20,8 @@
     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
 {% endblock %}
 
+<!-- overriding relbar1: NO relbar above the content -->
+{% block relbar1 %}{% endblock %}
 
 {% block content %}
 
@@ -33,12 +36,15 @@
           <a class="brand" href="#">QGIS</a>
           <div class="nav-collapse collapse">
             <p class="navbar-text pull-right">
-              Logged in as <a href="#" class="navbar-link">Username</a>
+              <!-- to be used later? -->
+              <!--Logged in as <a href="#" class="navbar-link">Username</a>-->
             </p>
             <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="http://www.qgis.nl">QGIS Home</a></li>
+              <li><a href="#download">Download</a></li>
+              <li class="active"><a href="#documentation">Documentation</a></li>
+              <li><a href="#community">Community</a></li>
+              <li><a href="#development">Development</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -61,7 +67,7 @@
         <div class="span9">
           <div cclass="hero-unit">
 
-            {%- block relbar2 %}{{ relbar() }}{% endblock %}
+            {%- block qgisrelbar %}{{ relbar() }}{% endblock %}
 
             {% block body %} {% endblock %}
 
