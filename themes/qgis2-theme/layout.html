@@ -1,12 +1,37 @@
 {% extends "basic/layout.html" %}
 
+<!-- Sphinx also brings it's own jquery, but this one is too old for bootstrap.
+    TODO get rid of the one from Sphinx -->
+{% set script_files = script_files + ['_static/bootstrap/js/jquery.js'] %}
 {% set script_files = script_files + ['_static/bootstrap/js/bootstrap.js'] %}
+
 {% set css_files = css_files + ['_static/bootstrap/css/bootstrap.min.css'] %}
-{% set css_files = css_files + ['_static/bootstrap/css/bootstrap-responsive.min.css'] %}
+<!-- qgis.css BEFORE bootstrap-responsive -->
 {% set css_files = css_files + ['_static/qgis.css'] %}
+{% set css_files = css_files + ['_static/bootstrap/css/bootstrap-responsive.min.css'] %}
 
 
 {% block extrahead %}
+    <!-- without this part, the responsive-css for bootstrap kill some rules
+        TODO: remove this, or make this obsolete ?? -->
+    <style>
+    .navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+    .navbar .brand {
+        background-image: url("http://plugins.qgis.org/static/images/blue/logo.png");
+        background-repeat: no-repeat;
+        height: 42px;
+        padding-left: 60px;
+    }
+    .navbar-inverse .navbar-inner {
+        background-color:none;
+    }
+    </style>
+
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -25,6 +50,7 @@
 
 {% block content %}
 
+    <!-- bootstrap stuff from fluid.html example -->
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container-fluid">
@@ -40,10 +66,10 @@
               <!--Logged in as <a href="#" class="navbar-link">Username</a>-->
             </p>
             <ul class="nav">
-              <li><a href="http://www.qgis.nl">QGIS Home</a></li>
-              <li><a href="#download">Download</a></li>
-              <li class="active"><a href="#documentation">Documentation</a></li>
-              <li><a href="#community">Community</a></li>
+              <li><a href="http://www.qgis.org">QGIS Home</a></li>
+              <li><a href="http://download.qgis.org/">Download</a></li>
+              <li class="active"><a href="{{ pathto(master_doc) }}">Documentation</a></li>
+              <li><a href="http://www.qgis.org/community.html">Community</a></li>
               <li><a href="#development">Development</a></li>
             </ul>
           </div><!--/.nav-collapse -->
@@ -51,11 +77,24 @@
       </div>
     </div>
 
+    <!-- bootstrap stuff from fluid.html example -->
     <div class="container-fluid">
       <div class="row-fluid">
         <div class="span3">
           <div class="well sidebar-nav">
             <!-- sidebar -->
+            <ul id="locales">
+                <li><a href="#"><img src="http://qgis.org/components/com_joomfish/images/flags/en.gif"/></a></li>
+                <li><a href="#"><img src="http://qgis.org/components/com_joomfish/images/flags/de.gif"/></a></li>
+                <li><a href="#"><img src="http://qgis.org/components/com_joomfish/images/flags/fr.gif"/></a></li>
+                <li><a href="#"><img src="http://qgis.org/components/com_joomfish/images/flags/it.gif"/></a></li>
+                <li><a href="#"><img src="http://qgis.org/components/com_joomfish/images/flags/nl.gif"/></a></li>
+                <li><a href="#"><img src="http://qgis.org/components/com_joomfish/images/flags/en.gif"/></a></li>
+                <li><a href="#"><img src="http://qgis.org/components/com_joomfish/images/flags/de.gif"/></a></li>
+                <li><a href="#"><img src="http://qgis.org/components/com_joomfish/images/flags/fr.gif"/></a></li>
+                <li><a href="#"><img src="http://qgis.org/components/com_joomfish/images/flags/it.gif"/></a></li>
+                <li><a href="#"><img src="http://qgis.org/components/com_joomfish/images/flags/nl.gif"/></a></li>
+            </ul><span style="clear:both">&nbsp;</span>
             {%- if sidebars != None %}
                 {#- new style sidebar: explicitly include/exclude templates #}
                 {%- for sidebartemplate in sidebars %}
