@@ -672,6 +672,12 @@ html_sidebars = {
 htmlhelp_basename = 'QGISUserGuide'
 
 
+# show 'build with Sphinx', defaults to True
+html_show_sphinx = False
+
+# show copyright notice, defaults to True
+html_show_copyright = False
+
 # -- Options for LaTeX output --------------------------------------------------
 
 # The paper size ('letter' or 'a4').

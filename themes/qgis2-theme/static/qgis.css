@@ -23,7 +23,7 @@ h3 {
 #locales li{
   float: left;
   list-style-type: none;
-  padding-right: 4px;
+  padding: 0 1px 1px 1px;
 }
 #locales {
   margin-left:2px;

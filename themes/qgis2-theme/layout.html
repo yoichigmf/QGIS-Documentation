@@ -32,6 +32,22 @@
     }
     </style>
 
+    <script>
+        // put a line below the current locale flag
+        $(document).ready(function(){
+            var currentPage = '{{current_page_name}}.html';
+            var currentLang = window.location.href.slice(window.location.href.indexOf(currentPage)-3 ,window.location.href.indexOf(currentPage)-1);
+            $('#flag_'+currentLang).css('border-bottom', 'solid 1px #111111');
+        })
+
+        // load current page in a different language
+        function gotoLang(lang){
+            var currentPage = '{{current_page_name}}.html';
+            var baseUrl = window.location.href.slice(0,window.location.href.indexOf(currentPage)-3); // -3 removes current locale 
+            window.location.href = baseUrl + lang + '/' + currentPage;
+        }
+    </script>
+
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -84,16 +100,12 @@
           <div class="well sidebar-nav">
             <!-- sidebar -->
             <ul id="locales">
-                <li><a href="#"><img src="http://qgis.org/components/com_joomfish/images/flags/en.gif"/></a></li>
-                <li><a href="#"><img src="http://qgis.org/components/com_joomfish/images/flags/de.gif"/></a></li>
-                <li><a href="#"><img src="http://qgis.org/components/com_joomfish/images/flags/fr.gif"/></a></li>
-                <li><a href="#"><img src="http://qgis.org/components/com_joomfish/images/flags/it.gif"/></a></li>
-                <li><a href="#"><img src="http://qgis.org/components/com_joomfish/images/flags/nl.gif"/></a></li>
-                <li><a href="#"><img src="http://qgis.org/components/com_joomfish/images/flags/en.gif"/></a></li>
-                <li><a href="#"><img src="http://qgis.org/components/com_joomfish/images/flags/de.gif"/></a></li>
-                <li><a href="#"><img src="http://qgis.org/components/com_joomfish/images/flags/fr.gif"/></a></li>
-                <li><a href="#"><img src="http://qgis.org/components/com_joomfish/images/flags/it.gif"/></a></li>
-                <li><a href="#"><img src="http://qgis.org/components/com_joomfish/images/flags/nl.gif"/></a></li>
+                <!-- TODO: get the flag images from a central place (the are in Qgis repo in the images dir) -->
+                <li id="flag_en"><a href="#" onclick="gotoLang('en');"><img src="http://qgis.org/components/com_joomfish/images/flags/en.gif"/></a></li>
+                <li id="flag_de"><a href="#" onclick="gotoLang('de');"><img src="http://qgis.org/components/com_joomfish/images/flags/de.gif"/></a></li>
+                <li id="flag_fr"><a href="#" onclick="gotoLang('fr');"><img src="http://qgis.org/components/com_joomfish/images/flags/fr.gif"/></a></li>
+                <li id="flag_it"><a href="#" onclick="gotoLang('it');"><img src="http://qgis.org/components/com_joomfish/images/flags/it.gif"/></a></li>
+                <li id="flag_nl"><a href="#" onclick="gotoLang('nl');"><img src="http://qgis.org/components/com_joomfish/images/flags/nl.gif"/></a></li>
             </ul><span style="clear:both">&nbsp;</span>
             {%- if sidebars != None %}
                 {#- new style sidebar: explicitly include/exclude templates #}
