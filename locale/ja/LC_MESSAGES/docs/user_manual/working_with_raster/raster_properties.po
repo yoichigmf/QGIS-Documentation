@@ -7,8 +7,8 @@
 # Translators:
 # tomoyuki arai <tarai.3367@gmail.com>, 2024
 # Harrissou Sant-anna, 2024
-# tomoya miyoshi, 2024
 # Transifex Bot <>, 2024
+# tomoya miyoshi, 2024
 # 
 #, fuzzy
 msgid ""
@@ -17,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-02 10:51+0100\n"
 "PO-Revision-Date: 2024-03-02 11:57+0000\n"
-"Last-Translator: Transifex Bot <>, 2024\n"
+"Last-Translator: tomoya miyoshi, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/qgis/teams/6144/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,6 +39,36 @@ msgstr ""
 #: ../../docs/user_manual/working_with_raster/raster_properties.rst:6
 msgid "Raster Properties Dialog"
 msgstr "ラスタプロパティダイアログ"
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:13
+msgid ""
+"Raster data is made up of pixels (or cells), and each pixel has a value. It "
+"is commonly used to store various types of data, including:"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:16
+msgid ""
+"Imagery, such as satellite images, digital aerial photographs, scanned maps"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:17
+msgid ""
+"Elevation data, such as digital elevation models (DEMs), digital terrain "
+"models (DTMs)"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:18
+msgid ""
+"Other types of data, such as land cover, soil types, rainfall and many "
+"others."
+msgstr ""
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:20
+msgid ""
+"Raster data can be stored in several supported formats, including GeoTIFF, "
+"ERDAS Imagine, ArcInfo ASCII GRID, PostGIS Raster and others. See more at "
+":ref:`opening_data`."
+msgstr ""
 
 #: ../../docs/user_manual/working_with_raster/raster_properties.rst:24
 msgid ""
@@ -141,6 +171,10 @@ msgstr "|legend| :ref:`凡例 <raster_server>`"
 #: ../../docs/user_manual/working_with_raster/raster_properties.rst:1039
 msgid "legend"
 msgstr "legend"
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:44
+msgid "|display| :ref:`Display <raster_display>`"
+msgstr ""
 
 #: ../../docs/user_manual/working_with_raster/raster_properties.rst:1025
 msgid "display"
@@ -1135,6 +1169,15 @@ msgstr ""
 ":guilabel:`リサンプリング` "
 "オプションは、画像の拡大・縮小時に影響を与えます。リサンプリングモードは地図の見た目を最適化することができます。これは、幾何学的変換によって新しいグレー値行列を計算します。"
 
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:579
+msgid ""
+"When applying the 'Nearest neighbour' method, the map can get a pixelated "
+"structure when zooming in. This appearance can be improved by using the "
+"'Bilinear (2x2 kernel)' or 'Cubic (4x4 kernel)' method, which cause sharp "
+"edges to be blurred. The effect is a smoother image. This method can be "
+"applied to for instance digital topographic raster maps."
+msgstr ""
+
 #: ../../docs/user_manual/working_with_raster/raster_properties.rst:586
 msgid ""
 "|checkbox| :guilabel:`Early resampling`: allows to calculate the raster "
@@ -1150,6 +1193,12 @@ msgstr ""
 #: ../../docs/user_manual/working_with_raster/raster_properties.rst:597
 msgid "Transparency Properties"
 msgstr "透過性プロパティ"
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:599
+msgid ""
+"QGIS provides capabilities to set the |transparency| "
+":guilabel:`Transparency` level of a raster layer."
+msgstr ""
 
 #: ../../docs/user_manual/working_with_raster/raster_properties.rst:602
 msgid ""
@@ -1315,6 +1364,16 @@ msgstr "レンダリングプロパティ"
 msgid "In the |rendering| :guilabel:`Rendering` tab, it's possible to:"
 msgstr "|rendering| :guilabel:`レンダリング` タブでは、以下の設定が可能です："
 
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:698
+msgid ""
+"set :guilabel:`Scale dependent visibility` for the layer: You can set the "
+":guilabel:`Maximum (inclusive)` and :guilabel:`Minimum (exclusive)` scales, "
+"defining a range of scales in which the layer will be visible. It will be "
+"hidden outside this range. The |mapIdentification| :sup:`Set to current "
+"canvas scale` button helps you use the current map canvas scale as a "
+"boundary. See :ref:`label_scaledepend` for more information."
+msgstr ""
+
 #: ../../docs/user_manual/working_with_raster/raster_properties.rst:1041
 msgid "mapIdentification"
 msgstr "mapIdentification"
@@ -1327,6 +1386,34 @@ msgid ""
 msgstr ""
 "レイヤの縮尺に応じた表示は、:guilabel:`レイヤ` パネルからも有効にすることもできます:　レイヤを右クリックし、コンテキストメニューから "
 ":guilabel:`レイヤの縮尺表示を設定` を選択します。"
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:712
+msgid ""
+"|checkbox| :guilabel:`Refresh layer at interval`: controls whether and how "
+"regular a layer can be refreshed. Available :guilabel:`Configuration` "
+"options are:"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:715
+msgid ""
+":guilabel:`Reload data`: the layer will be completely refreshed. Any cached "
+"data will be discarded and refetched from the provider. This mode may result"
+" in slower map refreshes."
+msgstr ""
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:718
+msgid ""
+":guilabel:`Redraw layer only`: this mode is useful for animation or when the"
+" layer's style will be updated at regular intervals. Canvas updates are "
+"deferred in order to avoid refreshing multiple times if more than one layer "
+"has an auto update interval set."
+msgstr ""
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:725
+msgid ""
+"It is also possible to set the :guilabel:`Interval (seconds)` between "
+"consecutive refreshments."
+msgstr ""
 
 #: ../../docs/user_manual/working_with_raster/raster_properties.rst:732
 msgid "Raster Rendering Properties"
@@ -1520,6 +1607,37 @@ msgstr ""
 msgid "unchecked"
 msgstr "unchecked"
 
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:848
+msgid ""
+":guilabel:`Profile Chart Appearance`: controls the rendering of the raster "
+"elevation data in the profile chart. The profile :guilabel:`Style` can be "
+"set as:"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:852
+msgid ""
+"a :guilabel:`Line` with a specific :ref:`Line style <vector_line_symbols>`"
+msgstr "特定の :ref:`線のスタイル <vector_line_symbols>` を持った :guilabel:`線`"
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:853
+msgid ""
+"an elevation surface rendered using a fill symbol either above "
+"(:guilabel:`Fill above`) or below (:guilabel:`Fill below`) the elevation "
+"curve line. The surface symbology is represented using:"
+msgstr ""
+"塗りつぶしシンボルを使って、標高曲線の上（:guilabel:`Fill above`）または下（:guilabel:`Fill "
+"below`）にレンダリングされた標高面。表面のシンボロジは以下のように表されます:"
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:857
+msgid "a :ref:`Fill style <vector_fill_symbols>`"
+msgstr ":ref:`塗りつぶしスタイル <vector_fill_symbols>`"
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:858
+msgid ""
+"and a :guilabel:`Limit`: the maximum (respectively minimum) altitude "
+"determining how high the fill surface will be"
+msgstr "そして :guilabel:`上限`: 塗りつぶしサーフェスがどの高さになるかの最大値（または最小値）"
+
 #: ../../docs/user_manual/working_with_raster/raster_properties.rst:866
 msgid "Metadata Properties"
 msgstr "メタデータプロパティ"
@@ -1589,9 +1707,62 @@ msgstr "ラスタの「凡例」タブ"
 msgid "Display Properties"
 msgstr "表示名プロパティ"
 
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:920
+msgid ""
+"The |display| :guilabel:`Display` tab helps you configure HTML map tips to "
+"use for pixels identification:"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:923
+msgid ""
+"|checkbox| :guilabel:`Enable Map Tips` controls whether to display map tips "
+"for the layer"
+msgstr "|checkbox| :guilabel:`Tipsを有効化` は、レイヤの地図のTipsを表示するかどうかを制御します。"
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:924
+msgid ""
+"The :guilabel:`HTML Map Tip` provides a complex and full HTML text editor "
+"for map tips, mixing QGIS expressions and html styles and tags (multiline, "
+"fonts, images, hyperlink, tables, ...). You can check the result of your "
+"code sample in the :guilabel:`Preview` frame."
+msgstr ""
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:933
+msgid "Map tips with raster layer"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:936
+msgid "To display map tips:"
+msgstr "地図のTipsを表示するには:"
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:938
+msgid ""
+"Select the menu option :menuselection:`View --> Show Map Tips` or click on "
+"the |mapTips| :sup:`Show Map Tips` icon of the :guilabel:`Attributes "
+"Toolbar`."
+msgstr ""
+
 #: ../../docs/user_manual/working_with_raster/raster_properties.rst:1043
 msgid "mapTips"
 msgstr "mapTips"
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:940
+msgid ""
+"Make sure that the layer you target is active and has the |checkbox| "
+":guilabel:`Enable Map Tips` property checked."
+msgstr ""
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:942
+msgid ""
+"Move over a pixel, and the corresponding information will be displayed over."
+msgstr ""
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:944
+msgid ""
+"Map tip is a cross-layer feature meaning that once activated, it stays on "
+"and applies to any map tip enabled layer in the project until it is toggled "
+"off."
+msgstr ""
 
 #: ../../docs/user_manual/working_with_raster/raster_properties.rst:952
 msgid "QGIS Server Properties"
@@ -1654,10 +1825,69 @@ msgstr ""
 msgid "QGIS Server in Raster Properties"
 msgstr "ラスタプロパティの「QGISサーバー」タブ"
 
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:984
+msgid "Identify raster cells"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:986
+msgid ""
+"The |identify| :ref:`identify features <identify>` tool allows you to get "
+"information about specific points in a raster layer."
+msgstr ""
+
 #: ../../docs/user_manual/working_with_raster/raster_properties.rst:1037
 msgid "identify"
 msgstr "identify"
 
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:989
+msgid "To use the |identify|:guilabel:`Identify features` tool:"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:991
+msgid "Select the raster layer in the Layers panel."
+msgstr ""
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:992
+msgid ""
+"Click on the :guilabel:`Identify features` tool in the toolbar or press "
+":kbd:`Ctrl+Shift+I`."
+msgstr ""
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:993
+msgid "Click on the point in the raster layer that you want to identify."
+msgstr ""
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:995
+msgid ""
+"The Identify Results panel will open in its default ``Tree`` view and "
+"display information about the clicked point. Below the name of the raster "
+"layer, you have on the left the band(s) of the clicked pixel, and on the "
+"right their respective value. These values can also be rendered (from the "
+":guilabel:`View` menu located at the bottom of the panel) in:"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:1001
+msgid ""
+"a ``Table`` view - organizes the information about the identified features "
+"and their values in a table."
+msgstr ""
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:1003
+msgid ""
+"a ``Graph`` view - organizes the information about the identified features "
+"and their values in a graph."
+msgstr ""
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:1006
+msgid ""
+"Under the pixel attributes, you will find the :guilabel:`Derived` "
+"information, such as:"
+msgstr ""
+
 #: ../../docs/user_manual/working_with_raster/raster_properties.rst:1009
 msgid "``X`` and ``Y`` coordinate values of the point clicked"
 msgstr "クリックされた点の ``X`` 、 ``Y`` 座標値"
+
+#: ../../docs/user_manual/working_with_raster/raster_properties.rst:1010
+msgid "Column and row of the point clicked (pixel)"
+msgstr ""

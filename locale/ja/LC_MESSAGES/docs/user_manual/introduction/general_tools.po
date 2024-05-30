@@ -7,8 +7,10 @@
 # Translators:
 # tomoyuki arai <tarai.3367@gmail.com>, 2024
 # Harrissou Sant-anna, 2024
-# tomoya miyoshi, 2024
 # Transifex Bot <>, 2024
+# tomoya miyoshi, 2024
+# Mihiro Takizawa, 2024
+# Aki Sato, 2024
 # 
 #, fuzzy
 msgid ""
@@ -17,7 +19,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-02 10:51+0100\n"
 "PO-Revision-Date: 2024-03-02 11:58+0000\n"
-"Last-Translator: Transifex Bot <>, 2024\n"
+"Last-Translator: Aki Sato, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/qgis/teams/6144/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -82,6 +84,52 @@ msgstr ""
 ":guilabel:`レイヤ` パネル（``地図凡例`` "
 "とも呼ばれます）は、プロジェクト内のすべてのレイヤを一覧表示し、その可視性を管理したり、マップの形を整えるのに役立ちます。このパネルは "
 ":kbd:`Ctrl+1` を押すことで表示・非表示を切り替えることができます。"
+
+#: ../../docs/user_manual/introduction/general_tools.rst:52
+msgid "QGIS provides a variety of ways to add layers to a project:"
+msgstr "QGISにはプロジェクトにレイヤを追加する様々な方法があります:"
+
+#: ../../docs/user_manual/introduction/general_tools.rst:54
+msgid ""
+"using the :guilabel:`Add` button from the dedicated data provider tab in the"
+" :ref:`Data source manager <opening_data>` dialog"
+msgstr ""
+":ref:`データソースマネージャ <opening_data>` ダイアログにある専用のデータプロバイダタブから :guilabel:`追加` "
+"ボタンを使う"
+
+#: ../../docs/user_manual/introduction/general_tools.rst:56
+msgid ""
+"from QGIS :ref:`Browser panel <label_browserpanel>` or :ref:`DB Manager "
+"<dbmanager>`: double-click, drag-and-drop files and layers onto QGIS or use "
+"the contextual menu"
+msgstr ""
+"QGISの :ref:`ブラウザパネル <label_browserpanel>` または :ref:`DBマネージャ <dbmanager>`: "
+"ダブルクリック、ファイルやレイヤをQGISにドラッグ＆ドロップ、コンテキストメニューを使う"
+
+#: ../../docs/user_manual/introduction/general_tools.rst:58
+msgid "drag-and-drop files from the Operating System files explorer onto QGIS"
+msgstr "ファイルをオペレーティングシステムのファイルエクスプローラからQGISにドラッグ&ドロップする"
+
+#: ../../docs/user_manual/introduction/general_tools.rst:63
+msgid ""
+"if dropped over the :guilabel:`Layers` panel, at the exact location they are"
+" released"
+msgstr ":guilabel:`レイヤー` パネルの上にドロップすると、ドロップされた場所に正確に配置される。"
+
+#: ../../docs/user_manual/introduction/general_tools.rst:64
+msgid ""
+"in the other cases, at a location that respects the global :ref:`behavior "
+"used when adding new layers <layer_tree_insertion_methods>` setting"
+msgstr "他の場合には、新しいレイヤーを追加する設定で使用されるグローバルな動作を尊重する位置にて。"
+
+#: ../../docs/user_manual/introduction/general_tools.rst:66
+msgid ""
+"and in case of multiple layers, they are sorted in a way that increases the "
+"chance of their stacking being logical and features being visible as most as"
+" possible, using the following logic (top to bottom):"
+msgstr ""
+"複数のレイヤーがある場合;それらは次のロジック（top to "
+"bottom）を使用して、論理的な積み重ねがなされ、機能ができるだけ多く見えるような方法で並べられます"
 
 #: ../../docs/user_manual/introduction/general_tools.rst:77
 msgid "At the top of the :guilabel:`Layers` panel, a toolbar allows you to:"
@@ -1801,9 +1849,38 @@ msgstr "networkAndProxy"
 msgid "|dbManager| :guilabel:`Query Logger`"
 msgstr "|dbManager| :guilabel:`クエリロガー`"
 
+#: ../../docs/user_manual/introduction/general_tools.rst:679
+msgid ""
+"|stopwatch| :guilabel:`Profiler` - under this tab you can choose one out of "
+"these categories:"
+msgstr "|stopwatch| :guilabel:`Profiler` - 以下のタブでは、これらのカテゴリーの中から1つを選ぶことができます"
+
 #: ../../docs/user_manual/introduction/general_tools.rst:2413
 msgid "stopwatch"
 msgstr "stopwatch"
+
+#: ../../docs/user_manual/introduction/general_tools.rst:682
+msgid ""
+":guilabel:`Startup` helps you diagnose (and fix) occasional long startup "
+"times of QGIS."
+msgstr ":guilabel:`Startup` 時々発生する QGIS の起動時間が長くなるのを診断 (および修正) するのに役立ちます。"
+
+#: ../../docs/user_manual/introduction/general_tools.rst:684
+msgid ""
+":guilabel:`Project Load` allows you to get a breakdown of the various stages"
+" of project load, in order to identify the causes of slow project load "
+"times."
+msgstr ""
+":guilabel:`Project Load` "
+"を使用すると、プロジェクトの読み込み時間が遅い原因を特定するために、プロジェクト読み込みのさまざまな段階の内訳を取得できます。"
+
+#: ../../docs/user_manual/introduction/general_tools.rst:687
+msgid ""
+":guilabel:`Map Render` tool allows you to identify pain points in your map "
+"rendering and track down exactly which layers are causing long map redraws."
+msgstr ""
+":guilabel:`Map Render`ツールを使用すると、マップ "
+"レンダリングの問題点を特定し、どのレイヤーがマップの再描画に時間がかかるかを正確に追跡できます。"
 
 #: ../../docs/user_manual/introduction/general_tools.rst:691
 msgid ""
@@ -2545,6 +2622,17 @@ msgstr ""
 msgid "Identifying Features"
 msgstr "地物の識別"
 
+#: ../../docs/user_manual/introduction/general_tools.rst:1040
+msgid ""
+"The |identify| :sup:`Identify Features` tool allows you to interact with the"
+" map canvas and get information on features or pixels in a pop-up window. It"
+" can be used to query most of the layer types supported by QGIS (vector, "
+"raster, mesh, point cloud, wms, wfs, ...). To identify an element, use "
+"either:"
+msgstr ""
+"The |identify| :sup:`Identify Features` "
+"このツールを使用すると、マップキャンバス上でインタラクションを行い、フィーチャーやピクセルに関する情報をポップアップウィンドウで取得できる。QGISがサポートするほとんどのレイヤータイプ（ベクター、ラスタ、メッシュ、ポイントクラウド、WMS、WFSなど）をクエリするために使用できる。要素を識別するには、次のいずれかの方法を使用する；"
+
 #: ../../docs/user_manual/introduction/general_tools.rst:2327
 msgid "identify"
 msgstr "identify"
@@ -2557,6 +2645,17 @@ msgstr ":menuselection:`ビュー --> 地物情報表示`"
 msgid ":kbd:`Ctrl+Shift+I` (or |osx| :kbd:`Cmd+Shift+I`),"
 msgstr ":kbd:`Ctrl+Shift+I` （ |osx| の場合は :kbd:`Cmd+Shift+I` ）"
 
+#: ../../docs/user_manual/introduction/general_tools.rst:1050
+msgid ""
+"Then click on a feature or pixel of the active layer. The identified item "
+"gets highlighted in the map canvas while the :guilabel:`Identify Results` "
+"dialog opens with detailed information on it. The dialog also shows a set of"
+" buttons for advanced configuration."
+msgstr ""
+"次に、アクティブなレイヤーのフィーチャーまたはピクセルをクリックする。識別された項目はマップキャンバスで強調表示され、その間に "
+":guilabel:`Identify Results` "
+"詳細情報を表示するダイアログが開く。このダイアログには、高度な設定のための一連のボタンも表示される。"
+
 #: ../../docs/user_manual/introduction/general_tools.rst:1057
 msgid "The Identify Results dialog"
 msgstr "地物情報ダイアログ"
@@ -2564,6 +2663,89 @@ msgstr "地物情報ダイアログ"
 #: ../../docs/user_manual/introduction/general_tools.rst:1064
 msgid "Identify Results dialog"
 msgstr "地物情報ダイアログ"
+
+#: ../../docs/user_manual/introduction/general_tools.rst:1066
+msgid "From bottom to top:"
+msgstr "下から上へ："
+
+#: ../../docs/user_manual/introduction/general_tools.rst:1070
+msgid ""
+"The :guilabel:`View` controls the general aspect of the dialog and the "
+"formatting of the results; it can be set as:"
+msgstr ":guilabel:`View` はダイアログの全体的な外観と結果のフォーマットを制御します;次のように設定できます:"
+
+#: ../../docs/user_manual/introduction/general_tools.rst:1073
+msgid ""
+"**Tree**: this is the default view, and returns the results in a tree-"
+"structure"
+msgstr "**Tree**: これはデフォルトのビューで、結果をツリー構造で表示します"
+
+#: ../../docs/user_manual/introduction/general_tools.rst:1074
+msgid ""
+"**Table**: available only for raster-based layers, it allows to display the "
+"results as a table whose columns are ``Layer``, ``FID``, ``Attribute`` and "
+"``Value``"
+msgstr ""
+"**Table**: ラスターベースのレイヤーのみで利用可能で、結果を ``Layer``、``FID``、``Attribute``、および "
+"``Value`` の列を持つテーブルとして表示する"
+
+#: ../../docs/user_manual/introduction/general_tools.rst:1076
+msgid "or **Graph**: available only for raster-based layers"
+msgstr "or **Graph**: ラスターベースのレイヤーのみで利用可能"
+
+#: ../../docs/user_manual/introduction/general_tools.rst:1082
+msgid ""
+"The :guilabel:`Mode` helps you select the layers from which results could be"
+" returned. These layers should be set visible, displaying data in the map "
+"canvas, and set :ref:`identifiable <project_layer_capabilities>` from the "
+":menuselection:`Project properties --> Data Sources --> Layers "
+"capabilities`. Available modes are:"
+msgstr ""
+"'Mode' は、結果が返されるレイヤーを選択するのに役立つ.これらのレイヤーは可視化され、マップキャンバスにデータが表示され、Project "
+"properties ► Data Sources ► Layers capabilities "
+"で識別可能に設定されている必要がある.利用可能なモードは次の通り："
+
+#: ../../docs/user_manual/introduction/general_tools.rst:1088
+msgid ""
+"**Current layer**: only the layer(s) selected in the :guilabel:`Layers` "
+"panel return results. If a group is selected, then results are picked from "
+"its leaf layers."
+msgstr ""
+"**Current layer**: ’Layers’ "
+"パネルで選択されたlayer(s)のみが結果を返す.グループが選択されている場合、結果はそのleaf layersから取得される."
+
+#: ../../docs/user_manual/introduction/general_tools.rst:1091
+msgid ""
+"**Top down, stop at first**: results are from the layer of the top most "
+"feature or pixel under the mouse."
+msgstr "**Top down, stop at first**: 結果は、マウス下の最上位の地物またはピクセルのレイヤーから取得される."
+
+#: ../../docs/user_manual/introduction/general_tools.rst:1093
+msgid ""
+"**Top down**: results are from the layers with feature or pixel under the "
+"mouse."
+msgstr "**Top down**: 結果は、マウス下の地物またはピクセルが存在するすべてのレイヤーから取得される."
+
+#: ../../docs/user_manual/introduction/general_tools.rst:1094
+msgid ""
+"**Layer selection**: opens a contextual menu where the user selects the "
+"layer to identify features from. If only a single feature is under the "
+"mouse, then the results are automatically displayed."
+msgstr ""
+"Layer selection: "
+"コンテキストメニューを開き、ユーザーがフィーチャーを識別するレイヤーを選択する。マウスの下に単一の地物しかない場合、結果は自動的に表示される。"
+
+#: ../../docs/user_manual/introduction/general_tools.rst:1098
+msgid ""
+"In the upper part of the :guilabel:`Identify Results` dialog, a frame shows "
+"the :ref:`information <identified_information>` returned by features as a "
+"table, a graph or a tree, depending on the :ref:`selected view "
+"<identify_view>`. When in a tree view, you have a handful of tools above the"
+" results:"
+msgstr ""
+":guilabel:`Identify Results` ダイアログの上部には、地物から返された :ref:`情報 ` "
+"を表、グラフ、またはツリーとして表示するフレームがあります。表示形式は :ref:`選択されたビュー ` "
+"によって異なります。ツリービューの場合、結果の上にいくつかのツールがある:"
 
 #: ../../docs/user_manual/introduction/general_tools.rst:1103
 msgid "|formView| :sup:`Open Form` of the current feature"
@@ -2596,9 +2778,30 @@ msgstr "expandNewTree"
 msgid "|deselectAll| :sup:`Clear Results`"
 msgstr "|deselectAll| :sup:`結果のクリア`"
 
+#: ../../docs/user_manual/introduction/general_tools.rst:1109
+msgid ""
+"|editCopy| :sup:`Copy the identified feature to clipboard`, suitable for "
+"pasting in a spreadsheet."
+msgstr "クリップボード`, スプレッドシートに貼り付けるのに適しています."
+
+#: ../../docs/user_manual/introduction/general_tools.rst:1110
+msgid ""
+"|filePrint| :sup:`Print selected HTML response`: a text-based formatting of "
+"the results to print on paper or save as a :file:`.PDF` file"
+msgstr "結果を印刷するため、または :PDF`ファイルとして保存するためのテキストベースのフォーマット"
+
 #: ../../docs/user_manual/introduction/general_tools.rst:2305
 msgid "filePrint"
 msgstr "filePrint"
+
+#: ../../docs/user_manual/introduction/general_tools.rst:1112
+msgid ""
+"the :ref:`interactive identifying tools <identify_selection>`: a drop-down "
+"menu with tools for selecting on the map canvas features or pixels to "
+"identify"
+msgstr ""
+":ref:`interactive identifying tools 1`: "
+"マップキャンバス上で識別するフィーチャーやピクセルを選択するためのツールが含まれたドロップダウンメニュー"
 
 #: ../../docs/user_manual/introduction/general_tools.rst:2317
 msgid "helpContents"

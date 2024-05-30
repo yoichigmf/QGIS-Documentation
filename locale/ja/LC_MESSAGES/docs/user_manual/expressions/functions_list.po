@@ -6,22 +6,22 @@
 # 
 # Translators:
 # Transifex Bot <>, 2024
-# Harrissou Sant-anna, 2024
 # tomoya miyoshi, 2024
+# Harrissou Sant-anna, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: QGIS Documentation 3.34\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-20 15:58+0000\n"
+"POT-Creation-Date: 2024-05-24 19:09+0000\n"
 "PO-Revision-Date: 2024-03-02 11:58+0000\n"
-"Last-Translator: tomoya miyoshi, 2024\n"
+"Last-Translator: Harrissou Sant-anna, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/qgis/teams/6144/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.14.0\n"
+"Generated-By: Babel 2.15.0\n"
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -222,6 +222,7 @@ msgstr "別のレイヤの地物を使って計算された値の集計値を返
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:35
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:38
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:39
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:44
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:45
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:50
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:51
@@ -231,29 +232,29 @@ msgstr "別のレイヤの地物を使って計算された値の集計値を返
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:56
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:58
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:59
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:65
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:73
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:74
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:75
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:77
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:79
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:86
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:92
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:93
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:94
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:96
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:98
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:107
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:111
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:112
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:116
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:118
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:125
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:129
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:133
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:136
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:138
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:142
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:145
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:157
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:158
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:162
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:167
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:174
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:179
@@ -451,17 +452,17 @@ msgstr ""
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:22
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:37
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:38
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:41
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:42
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:47
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:58
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:82
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:89
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:96
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:97
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:114
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:101
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:119
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:141
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:132
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:145
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:165
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:170
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:213
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:217
@@ -646,9 +647,9 @@ msgstr "記号[]は、オプションの引数を意味します。"
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:39
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:40
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:41
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:42
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:43
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:47
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:48
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:52
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:53
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:55
@@ -658,26 +659,26 @@ msgstr "記号[]は、オプションの引数を意味します。"
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:59
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:60
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:61
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:67
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:75
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:76
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:77
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:79
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:83
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:90
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:94
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:97
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:98
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:102
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:114
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:115
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:120
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:127
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:133
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:135
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:138
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:142
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:146
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:147
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:159
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:160
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:166
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:171
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:176
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:181
@@ -1144,6 +1145,7 @@ msgstr ""
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:44
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:49
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:54
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:55
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:56
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:57
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:58
@@ -1152,30 +1154,29 @@ msgstr ""
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:61
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:63
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:66
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:69
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:70
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:76
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:77
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:78
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:79
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:81
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:82
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:90
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:95
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:96
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:100
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:104
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:107
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:109
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:117
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:120
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:122
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:124
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:129
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:137
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:140
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:148
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:150
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:152
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:161
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:163
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:172
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:176
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:178
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:183
@@ -6378,17 +6379,17 @@ msgstr ""
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:39
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:40
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:41
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:43
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:49
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:57
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:58
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:59
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:60
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:62
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:76
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:91
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:98
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:99
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:116
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:103
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:134
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:182
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:196
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:385
@@ -6681,11 +6682,26 @@ msgstr "bearing"
 msgid ""
 "Returns the north-based bearing as the angle in radians measured clockwise "
 "on the ellipsoid from the vertical on point_a to point_b."
-msgstr "北を基準とした方位を、点_a上の鉛直線から点_bへ楕円体の時計回りに測ったラジアン単位の角度で返します。"
+msgstr "北を基準とした方位を、point_a上の鉛直線からpoint_bへ楕円体の時計回りに測ったラジアン単位の角度で返します。"
 
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:168
 msgid "bearing(point_a, point_b, [source_crs], [ellipsoid])"
 msgstr "bearing(point_a, point_b, [source_crs], [ellipsoid])"
+
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:174
+msgid ""
+"**source_crs** - an optional string representing the source CRS of the "
+"points. By default the current layer's CRS is used."
+msgstr "**source_crs** - ポイントのソースCRSを表すオプションの文字列。デフォルトでは、現在のレイヤのCRSが使われます。"
+
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:175
+msgid ""
+"**ellipsoid** - an optional string representing the acronym or the "
+"authority:ID (eg 'EPSG:7030') of the ellipsoid on which the bearing should "
+"be measured. By default the current project's ellipsoid setting is used."
+msgstr ""
+"**ellipsoid** - 方位を測る楕円体の頭字語または authority:ID (例: "
+"'EPSG:7030')を表すオプションの文字列。デフォルトでは、現在のプロジェクトの楕円体設定が使われます。"
 
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:177
 msgid ""
@@ -6736,6 +6752,10 @@ msgid ""
 msgstr ""
 "``geom_to_wkt(boundary(geom_from_wkt('LineString(1 1,0 0,-1 1)')))`` → "
 "'MultiPoint ((1 1),(-1 1))'"
+
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:206
+msgid "Boundary (black dashed line) of the source polygon layer"
+msgstr "ソースポリゴンレイヤの境界（黒色の破線）"
 
 #: ../../docs/user_manual/expressions/functions_list.rst:304
 msgid "Further reading: :ref:`qgisboundary` algorithm"
@@ -7098,14 +7118,14 @@ msgid "combine(geometry1, geometry2)"
 msgstr "combine(geometry1, geometry2)"
 
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:16
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:68
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:80
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:219
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:288
 msgid "**geometry1** - a geometry"
 msgstr "**geometry1** - ジオメトリ"
 
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:17
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:69
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:81
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:220
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:289
 msgid "**geometry2** - a geometry"
@@ -7483,7 +7503,7 @@ msgstr "end_point(geometry)"
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:42
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:54
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:58
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:68
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:80
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:115
 msgid "**geometry** - geometry object"
 msgstr "**geometry** - ジオメトリオブジェクト"
@@ -8743,6 +8763,12 @@ msgstr ""
 "``geom_to_wkt(line_substring(geometry:=geom_from_wkt('LineString(0 0, 10 "
 "0)'),start_distance:=2,end_distance:=6))`` → 'LineString (2 0,6 0)'"
 
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:69
+msgid ""
+"Substring line with starting distance set at 0 meters and the ending "
+"distance at 250 meters."
+msgstr "開始距離を0m、終了距離を250mに設定して切り出されたラインの一部分"
+
 #: ../../docs/user_manual/expressions/functions_list.rst:473
 msgid "Further reading: :ref:`qgislinesubstring` algorithm"
 msgstr "関係する項目: :ref:`qgislinesubstring` アルゴリズム"
@@ -8768,9 +8794,23 @@ msgstr "``m( geom_from_wkt( 'POINTM(2 5 4)' ) )`` → 4"
 msgid "m_at"
 msgstr "m_at"
 
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:28
+msgid ""
+"Retrieves a m coordinate of the geometry, or NULL if the geometry has no m "
+"value."
+msgstr "ジオメトリのm座標を取得します。ジオメトリがm値を持たない場合はNULLになります。"
+
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:34
 msgid "m_at(geometry, vertex)"
 msgstr "m_at(geometry, vertex)"
+
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:17
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:37
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:116
+msgid ""
+"**vertex** - index of the vertex of the geometry (indices start at 0; "
+"negative values apply from the last index, starting at -1)"
+msgstr "**頂点** - ジオメトリの頂点のインデックス（インデックスは0から始まります; 負の値は-1を最後のインデックスとして逆順で数えます）"
 
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:39
 msgid ""
@@ -10096,6 +10136,15 @@ msgstr ""
 " population > 10000))`` → 現在の地物と空間的に同じ、population が10000よりも大きな値を持つregions "
 "の地物の名前をソートした配列"
 
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:33
+msgid ""
+"``overlay_equals(layer:='regions', expression:= geom_to_wkt(@geometry), "
+"limit:=2)`` → an array of geometries (in WKT), for up to two regions "
+"spatially equal to the current feature"
+msgstr ""
+"``overlay_equals(layer:='regions', expression:= geom_to_wkt(@geometry), "
+"limit:=2)`` → 現在の地物と空間的に等しい２つまでのregionsのジオメトリ（WKT形式）の配列"
+
 #: ../../docs/user_manual/expressions/functions_list.rst:534
 msgid ""
 "Further reading: :ref:`array manipulation <array_functions>`, "
@@ -10240,6 +10289,15 @@ msgstr ""
 "filter:= population > 10000))`` → 現在の地物と交差する、population "
 "が10000よりも大きな値を持つregions の地物の名前をソートした配列"
 
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:46
+msgid ""
+"``overlay_intersects(layer:='regions', expression:= geom_to_wkt(@geometry), "
+"limit:=2)`` → an array of geometries (in WKT), for up to two regions "
+"intersected by the current feature"
+msgstr ""
+"``overlay_intersects(layer:='regions', expression:= geom_to_wkt(@geometry), "
+"limit:=2)`` → 現在の地物と交差する２つまでのregionsのジオメトリ（WKT形式）の配列"
+
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:47
 msgid ""
 "``overlay_intersects(layer:='regions', min_overlap:=0.54)`` → TRUE if the "
@@ -10260,6 +10318,24 @@ msgstr ""
 "``overlay_intersects(layer:='regions', min_inscribed_circle_radius:=0.54)`` "
 "→ 現在の地物が空間的にregionと交差し、交差する区域の最大内接円の半径（マルチパートの場合、少なくとも１つのパートの半径）が 0.54 "
 "以上の場合に TRUE"
+
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:49
+msgid ""
+"``overlay_intersects(layer:='regions', expression:= geom_to_wkt(@geometry), "
+"return_details:=true)`` → an array of maps containing 'id', 'result', "
+"'overlap' and 'radius'"
+msgstr ""
+"``overlay_intersects(layer:='regions', expression:= geom_to_wkt(@geometry), "
+"return_details:=true)`` → 'id', 'result', 'overlap' と 'radius' を含むマップの配列。"
+
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:50
+msgid ""
+"``overlay_intersects(layer:='regions', expression:= geom_to_wkt(@geometry), "
+"sort_by_intersection_size:='des')`` → an array of geometries (in WKT) "
+"ordered by the overlap value in descending order"
+msgstr ""
+"``overlay_intersects(layer:='regions', expression:= geom_to_wkt(@geometry), "
+"sort_by_intersection_size:='des')`` → オーバーラップ値の降順で並べられた（WKTによる）ジオメトリの配列"
 
 #: ../../docs/user_manual/expressions/functions_list.rst:541
 msgid ""
@@ -10451,6 +10527,15 @@ msgstr ""
 "filter:= population > 10000))`` → 現在の地物と接触する、population "
 "が10000よりも大きな値を持つregions の地物の名前をソートした配列"
 
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:33
+msgid ""
+"``overlay_touches(layer:='regions', expression:= geom_to_wkt(@geometry), "
+"limit:=2)`` → an array of geometries (in WKT), for up to two regions touched"
+" by the current feature"
+msgstr ""
+"``overlay_touches(layer:='regions', expression:= geom_to_wkt(@geometry), "
+"limit:=2)`` → 現在の地物と接触する2つまでのregionsのジオメトリ（WKT形式）の配列"
+
 #: ../../docs/user_manual/expressions/functions_list.rst:556
 msgid ""
 "Further reading: :ref:`expression_function_GeometryGroup_touches`, "
@@ -10522,6 +10607,15 @@ msgstr ""
 "``array_sort(overlay_within(layer:='regions', expression:=\"name\", filter:="
 " population > 10000))`` → 現在の地物を含む、population が10000よりも大きな値を持つregions "
 "の地物の名前をソートした配列"
+
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:33
+msgid ""
+"``overlay_within(layer:='regions', expression:= geom_to_wkt(@geometry), "
+"limit:=2)`` → an array of geometries (in WKT), for up to two regions "
+"containing the current feature"
+msgstr ""
+"``overlay_within(layer:='regions', expression:= geom_to_wkt(@geometry), "
+"limit:=2)`` → 現在の地物を含んでいる2つまでのregionsのジオメトリ（WKT形式）の配列"
 
 #: ../../docs/user_manual/expressions/functions_list.rst:564
 msgid ""
@@ -10616,6 +10710,10 @@ msgstr "ジオメトリの表面上に存在することが保証される点を
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:14
 msgid "point_on_surface(geometry)"
 msgstr "point_on_surface(geometry)"
+
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:18
+msgid "``point_on_surface(@geometry)`` → a point geometry"
+msgstr "``point_on_surface(@geometry)`` → ポイントジオメトリ"
 
 #: ../../docs/user_manual/expressions/functions_list.rst:578
 msgid "Further reading: :ref:`qgispointonsurface` algorithm"
@@ -10787,6 +10885,10 @@ msgstr ""
 "``geom_to_wkt(reverse(geom_from_wkt('LINESTRING(0 0, 1 1, 2 2)')))`` → "
 "'LINESTRING(2 2, 1 1, 0 0)'"
 
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:67
+msgid "Reversing line direction"
+msgstr "線の向きを反転する"
+
 #: ../../docs/user_manual/expressions/functions_list.rst:596
 msgid "Further reading: :ref:`qgisreverselinedirection` algorithm"
 msgstr "関係する項目: :ref:`qgisreverselinedirection` アルゴリズム"
@@ -10823,6 +10925,19 @@ msgid ""
 msgstr ""
 "**per_part** - "
 "パーツごとに回転を適用します。trueを指定すると、入力ジオメトリがマルチパートで、明示的な回転中心点が指定されていない場合、各パーツのバウンディングボックスの中心を中心に回転が適用されます。"
+
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:23
+msgid ""
+"``rotate(@geometry, 45, make_point(4, 5))`` → geometry rotated 45 degrees "
+"clockwise around the (4, 5) point"
+msgstr ""
+"``rotate(@geometry, 45, make_point(4, 5))`` → 点（4, 5）を中心に時計回りに45度回転させたジオメトリ"
+
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:24
+msgid ""
+"``rotate(@geometry, 45)`` → geometry rotated 45 degrees clockwise around the"
+" center of its bounding box"
+msgstr "``rotate(@geometry, 45)`` → バウンディングボックスの中央を中心に時計回りに45度回転させたジオメトリ"
 
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:31
 msgid "Rotating features"
@@ -10895,6 +11010,21 @@ msgid ""
 "**center** - scaling center point. If not specified, the center of the "
 "geometry's bounding box is used."
 msgstr "**center** - 拡大縮小の中心。指定しない場合はジオメトリのバウンディングボックスの中心を使用します"
+
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:23
+msgid ""
+"``scale(@geometry, 2, 0.5, make_point(4, 5))`` → geometry scaled twice "
+"horizontally and halved vertically, around the (4, 5) point"
+msgstr ""
+"``scale(@geometry, 2, 0.5, make_point(4, 5))`` → (4, 5) "
+"の点を中心に、水平方向に2倍、垂直方向に半分に拡大縮小されたジオメトリ"
+
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:24
+msgid ""
+"``scale(@geometry, 2, 0.5)`` → geometry twice horizontally and halved "
+"vertically, around the center of its bounding box"
+msgstr ""
+"``scale(@geometry, 2, 0.5)`` → そのバウンディングボックスの中央を中心に、水平方向に2倍、垂直方向に半分にしたジオメトリ"
 
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:32
 msgid "segments_to_lines"
@@ -11101,6 +11231,35 @@ msgid ""
 " of lines, negative values to the right"
 msgstr "**distance** - バッファ距離。正の値はラインの左側に、負の値はラインの右側にバッファを作成します"
 
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:24
+msgid ""
+"``single_sided_buffer(@geometry, 10.5)`` → line buffered to the left by 10.5"
+" units"
+msgstr "``single_sided_buffer(@geometry, 10.5)`` → 10.5 単位左にバッファされたライン"
+
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:25
+msgid ""
+"``single_sided_buffer(@geometry, -10.5)`` → line buffered to the right by "
+"10.5 units"
+msgstr "``single_sided_buffer(@geometry, -10.5)`` → 10.5 単位右にのバッファされたライン"
+
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:26
+msgid ""
+"``single_sided_buffer(@geometry, 10.5, segments:=16, join:=1)`` → line "
+"buffered to the left by 10.5 units, using more segments to result in a "
+"smoother buffer"
+msgstr ""
+"``single_sided_buffer(@geometry, 10.5, segments:=16, join:=1)`` → "
+"より滑らかなバッファになるように、より多くのセグメントを使って10.5単位左にバッファされたライン"
+
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:27
+msgid ""
+"``single_sided_buffer(@geometry, 10.5, join:=3)`` → line buffered to the "
+"left by 10.5 units, using a beveled join"
+msgstr ""
+"``single_sided_buffer($geometry, 10.5, join:=3)`` → bebel "
+"継ぎ目を使い、10.5単位左にバッファされたライン"
+
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:34
 msgid "Left versus right side buffer on the same vector line layer"
 msgstr "同じベクタラインレイヤに対する左側バッファと右側バッファ"
@@ -11251,17 +11410,17 @@ msgstr ""
 "``square_wave(geom_from_wkt('LineString(0 0, 10 0)'), 3, 1)`` → "
 "ラインストリングに沿った波長3、振幅1の方形波"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:31
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:37
 msgid "square_wave_randomized"
 msgstr "square_wave_randomized"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:33
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:39
 msgid ""
 "Constructs randomized square/rectangular waves along the boundary of a "
 "geometry."
 msgstr "ジオメトリの境界に沿ってランダムな方形波／矩形波を構築します。"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:39
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:45
 msgid ""
 "square_wave_randomized(geometry, min_wavelength, max_wavelength, "
 "min_amplitude, max_amplitude, [seed=0])"
@@ -11269,34 +11428,34 @@ msgstr ""
 "square_wave_randomized(geometry, min_wavelength, max_wavelength, "
 "min_amplitude, max_amplitude, [seed=0])"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:44
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:117
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:50
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:135
 msgid "**min_wavelength** - minimum wavelength of waves"
 msgstr "**min_wavelength** - 最小の波長"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:45
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:118
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:51
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:136
 msgid "**max_wavelength** - maximum wavelength of waves"
 msgstr "**max_wavelength** - 最大の波長"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:46
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:119
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:52
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:137
 msgid "**min_amplitude** - minimum amplitude of waves"
 msgstr "**min_amplitude** - 最小の振幅"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:47
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:120
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:53
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:138
 msgid "**max_amplitude** - maximum amplitude of waves"
 msgstr "**max_amplitude** - 最大の振幅"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:48
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:121
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:54
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:139
 msgid ""
 "**seed** - specifies a random seed for generating waves. If the seed is 0, "
 "then a completely random set of waves will be generated."
 msgstr "**seed**は、波を生成するための乱数の根を指定します。seedを0にすると、完全にランダムな波のセットが生成されます。"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:50
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:56
 msgid ""
 "``square_wave_randomized(geom_from_wkt('LineString(0 0, 10 0)'), 2, 3, 0.1, "
 "0.2)`` → Randomly sized square waves with wavelengths between 2 and 3 and "
@@ -11305,19 +11464,19 @@ msgstr ""
 "``square_wave_randomized(geom_from_wkt('LineString(0 0 0, 10 0)'), 2, 3, "
 "0.1, 0.2)`` → ラインストリングに沿った、波長が2～3、振幅が0.1～0.2のランダムなサイズの方形波"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:58
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:70
 msgid "start_point"
 msgstr "start_point"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:60
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:72
 msgid "Returns the first node from a geometry."
 msgstr "ジオメトリの最初のノードを返します。"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:66
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:78
 msgid "start_point(geometry)"
 msgstr "start_point(geometry)"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:70
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:82
 msgid ""
 "``geom_to_wkt(start_point(geom_from_wkt('LINESTRING(4 0, 4 2, 0 2)')))`` → "
 "'Point (4 0)'"
@@ -11522,6 +11681,12 @@ msgstr "**dx** - x方向の移動量"
 msgid "**dy** - delta y"
 msgstr "**dy** - y方向の移動量"
 
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:20
+msgid ""
+"``translate(@geometry, 5, 10)`` → a geometry of the same type like the "
+"original one"
+msgstr "``translate(@geometry, 5, 10)`` → 入力ジオメトリと同じタイプのジオメトリ"
+
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:27
 msgid "Translating features"
 msgstr "地物の平行移動"
@@ -11570,16 +11735,16 @@ msgstr ""
 "``triangular_wave(geom_from_wkt('LineString(0 0, 10 0)'), 3, 1)`` → "
 "ラインストリングに沿った波長3、振幅1の三角波"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:31
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:37
 msgid "triangular_wave_randomized"
 msgstr "triangular_wave_randomized"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:33
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:39
 msgid ""
 "Constructs randomized triangular waves along the boundary of a geometry."
 msgstr "ジオメトリの境界に沿ってランダムな三角波を構築します。"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:39
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:45
 msgid ""
 "triangular_wave_randomized(geometry, min_wavelength, max_wavelength, "
 "min_amplitude, max_amplitude, [seed=0])"
@@ -11587,7 +11752,7 @@ msgstr ""
 "triangular_wave_randomized(geometry, min_wavelength, max_wavelength, "
 "min_amplitude, max_amplitude, [seed=0])"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:50
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:56
 msgid ""
 "``triangular_wave_randomized(geom_from_wkt('LineString(0 0, 10 0)'), 2, 3, "
 "0.1, 0.2)`` → Randomly sized triangular waves with wavelengths between 2 and"
@@ -11596,20 +11761,20 @@ msgstr ""
 "``triangular_wave_randomized(geom_from_wkt('LineString(0 0, 10 0)'), 2, 3, "
 "0.1, 0.2)`` → ラインストリングに沿った、波長が2～3、振幅が0.1～0.2のランダムなサイズの三角波"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:58
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:70
 msgid "union"
 msgstr "union"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:60
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:72
 msgid ""
 "Returns a geometry that represents the point set union of the geometries."
 msgstr "ジオメトリのポイントの和集合を表すジオメトリを返します。"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:66
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:78
 msgid "union(geometry1, geometry2)"
 msgstr "union(geometry1, geometry2)"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:71
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:83
 msgid ""
 "``geom_to_wkt( union( make_point(4, 4), make_point(5, 5) ) )`` → "
 "'MULTIPOINT(4 4, 5 5)'"
@@ -11617,27 +11782,27 @@ msgstr ""
 "``geom_to_wkt( union( make_point(4, 4), make_point(5, 5) ) )`` → "
 "'MULTIPOINT(4 4, 5 5)'"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:79
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:91
 msgid "wave"
 msgstr "wave"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:81
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:93
 msgid "Constructs rounded (sine-like) waves along the boundary of a geometry."
 msgstr "ジオメトリの境界に沿って丸みを帯びた（正弦のような）波を構築します。"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:87
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:99
 msgid "wave(geometry, wavelength, amplitude, [strict=False])"
 msgstr "wave(geometry, wavelength, amplitude, [strict=False])"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:92
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:104
 msgid "**wavelength** - wavelength of sine-like waveform"
 msgstr "**wavelength** - 正弦のような波の波長"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:93
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:105
 msgid "**amplitude** - amplitude of sine-like waveform"
 msgstr "**amplitude** - 正弦のような波の振幅"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:94
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:106
 msgid ""
 "**strict** - By default the wavelength argument is treated as a \"maximum "
 "wavelength\", where the actual wavelength will be dynamically adjusted so "
@@ -11648,7 +11813,7 @@ msgstr ""
 "**strict** - "
 "デフォルトでは、波長の引数は「最大波長」として扱われ、実際の波長はジオメトリの境界に沿って正確な数の波が作成されるように動的に調整されます。strict引数をtrueに設定すると、波長が正確に使用され、最終的な波形に不完全なパターンが使用される可能性があります。"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:96
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:108
 msgid ""
 "``wave(geom_from_wkt('LineString(0 0, 10 0)'), 3, 1)`` → Sine-like waves "
 "with wavelength 3 and amplitude 1 along the linestring"
@@ -11656,17 +11821,17 @@ msgstr ""
 "``wave(geom_from_wkt('LineString(0 0, 10 0)'), 3, 1)`` → "
 "ラインストリングに沿った、波長3、振幅1の正弦のような波"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:104
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:122
 msgid "wave_randomized"
 msgstr "wave_randomized"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:106
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:124
 msgid ""
 "Constructs randomized curved (sine-like) waves along the boundary of a "
 "geometry."
 msgstr "ジオメトリの境界に沿ってランダムな曲線（正弦のような）波を構築します。"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:112
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:130
 msgid ""
 "wave_randomized(geometry, min_wavelength, max_wavelength, min_amplitude, "
 "max_amplitude, [seed=0])"
@@ -11674,7 +11839,7 @@ msgstr ""
 "wave_randomized(geometry, min_wavelength, max_wavelength, min_amplitude, "
 "max_amplitude, [seed=0])"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:123
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:141
 msgid ""
 "``wave_randomized(geom_from_wkt('LineString(0 0, 10 0)'), 2, 3, 0.1, 0.2)`` "
 "→ Randomly sized curved waves with wavelengths between 2 and 3 and "
@@ -11683,43 +11848,43 @@ msgstr ""
 "``wave_randomized(geom_from_wkt('LineString(0 0, 10 0)'), 2, 3, 0.1, 0.2)`` "
 "→ ラインストリングに沿った、波長が2～3、振幅が0.1～0.2のランダムなサイズの丸まった波"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:131
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:155
 msgid "wedge_buffer"
 msgstr "wedge_buffer"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:133
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:157
 msgid "Returns a wedge shaped buffer originating from a point geometry."
 msgstr "ポイントジオメトリを起点とするくさび形のバッファを返します。"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:139
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:163
 msgid "wedge_buffer(center, azimuth, width, outer_radius, [inner_radius=0.0])"
 msgstr ""
 "wedge_buffer(center, azimuth, width, outer_radius, [inner_radius=0.0])"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:143
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:167
 msgid ""
 "**center** - center point (origin) of buffer. Must be a point geometry."
 msgstr "**center** - バッファの中心点（起点）。ポイントジオメトリでなければなりません。"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:144
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:168
 msgid "**azimuth** - angle (in degrees) for the middle of the wedge to point."
 msgstr "**azimuth** - くさび形の中央を指す角度（単位は度）"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:145
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:169
 msgid ""
 "**width** - buffer width (in degrees). Note that the wedge will extend to "
 "half of the angular width either side of the azimuth direction."
 msgstr "**width** - バッファ幅（度）。くさび形は、方位角の方向にバッファ幅の半分の大きさで両側に伸びることに注意してください。"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:146
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:170
 msgid "**outer_radius** - outer radius for buffers"
 msgstr "**outer_radius** - バッファの外側半径"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:147
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:171
 msgid "**inner_radius** - optional inner radius for buffers"
 msgstr "**inner_radius** - （オプション）バッファの内側半径"
 
-#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:149
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:173
 msgid ""
 "``wedge_buffer(center:=geom_from_wkt('POINT(1 "
 "2)'),azimuth:=90,width:=180,outer_radius:=1)`` → A wedge shaped buffer "
@@ -11775,6 +11940,16 @@ msgstr "関係する項目: :ref:`expression_function_GeometryGroup_overlay_with
 msgid "$x"
 msgstr "$x"
 
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:8
+msgid ""
+"Returns the x coordinate of the current point feature. If the feature is a "
+"multipoint feature, then the x-coordinate of the first point will be "
+"returned. **WARNING: This function is deprecated. It is recommended to use "
+"the replacement x() function with @geometry variable instead.**"
+msgstr ""
+"現在のポイント地物のx座標を返します。地物がマルチポイント地物の場合は、最初のポイントの x 座標が返されます。**警告: "
+"この関数は非推奨です。代わりに後継のx()関数を@geometry変数で使うことをお勧めします。**"
+
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:16
 msgid "``$x`` → 42"
 msgstr "``$x`` → 42"
@@ -11801,13 +11976,33 @@ msgstr "x(geometry)"
 msgid "``x( geom_from_wkt( 'POINT(2 5)' ) )`` → 2"
 msgstr "``x( geom_from_wkt( 'POINT(2 5)' ) )`` → 2"
 
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:19
+msgid "``x( @geometry )`` → x coordinate of the current feature's centroid"
+msgstr "``x( @geometry )`` → 現在の地物の重心のx座標"
+
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:27
 msgid "$x_at"
 msgstr "$x_at"
 
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:29
+msgid ""
+"Retrieves a x coordinate of the current feature's geometry. **WARNING: This "
+"function is deprecated. It is recommended to use the replacement x_at "
+"function with @geometry variable instead.**"
+msgstr ""
+"現在の地物のジオメトリの x 座標を取得します。**警告: この関数は非推奨です。代わりに、後継のx_at 関数を@geometry "
+"変数で使うことをお勧めします。**"
+
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:35
 msgid "$x_at(vertex)"
 msgstr "$x_at(vertex)"
+
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:37
+msgid ""
+"**vertex** - index of the vertex of the current geometry (indices start at "
+"0; negative values apply from the last index, starting at -1)"
+msgstr ""
+"**頂点** - 現在のジオメトリの頂点のインデックス（インデックスは0から始まります; 負の値は-1を最後のインデックスとして逆順で数えます）"
 
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:39
 msgid "``$x_at(1)`` → 5"
@@ -11820,6 +12015,10 @@ msgstr "関係する項目: :ref:`expression_function_GeometryGroup_x_at`"
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:6
 msgid "x_at"
 msgstr "x_at"
+
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:8
+msgid "Retrieves a x coordinate of the geometry."
+msgstr "ジオメトリのx座標を取得します。"
 
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:14
 msgid "x_at(geometry, vertex)"
@@ -11870,6 +12069,16 @@ msgstr "``x_min( geom_from_wkt( 'LINESTRING(2 5, 3 6, 4 8)') )`` → 2"
 msgid "$y"
 msgstr "$y"
 
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:69
+msgid ""
+"Returns the y coordinate of the current point feature. If the feature is a "
+"multipoint feature, then the y-coordinate of the first point will be "
+"returned. **WARNING: This function is deprecated. It is recommended to use "
+"the replacement y() function with @geometry variable instead.**"
+msgstr ""
+"現在のポイント地物のy座標を返します。地物がマルチポイント地物の場合は、最初のポイントの y 座標が返されます。**警告: "
+"この関数は非推奨です。代わりに後継のy()関数を@geometry変数で使うことをお勧めします。**"
+
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:77
 msgid "``$y`` → 42"
 msgstr "``$y`` → 42"
@@ -11896,9 +12105,22 @@ msgstr "y(geometry)"
 msgid "``y( geom_from_wkt( 'POINT(2 5)' ) )`` → 5"
 msgstr "``y( geom_from_wkt( 'POINT(2 5)' ) )`` → 5"
 
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:19
+msgid "``y( @geometry )`` → y coordinate of the current feature's centroid"
+msgstr "``y( @geometry )`` → 現在の地物の重心のy座標"
+
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:27
 msgid "$y_at"
 msgstr "$y_at"
+
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:29
+msgid ""
+"Retrieves a y coordinate of the current feature's geometry. **WARNING: This "
+"function is deprecated. It is recommended to use the replacement y_at "
+"function with @geometry variable instead.**"
+msgstr ""
+"現在の地物のジオメトリの y 座標を取得します。**警告: この関数は非推奨です。代わりに、後継のy_at 関数を@geometry "
+"変数で使うことをお勧めします。**"
 
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:35
 msgid "$y_at(vertex)"
@@ -11915,6 +12137,10 @@ msgstr "関係する項目: :ref:`expression_function_GeometryGroup_y_at`"
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:6
 msgid "y_at"
 msgstr "y_at"
+
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:8
+msgid "Retrieves a y coordinate of the geometry."
+msgstr "ジオメトリのy座標を取得します。"
 
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:14
 msgid "y_at(geometry, vertex)"
@@ -11965,6 +12191,16 @@ msgstr "``y_min( geom_from_wkt( 'LINESTRING(2 5, 3 6, 4 8)') )`` → 5"
 msgid "$z"
 msgstr "$z"
 
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:69
+msgid ""
+"Returns the z value of the current point feature if it is 3D. If the feature"
+" is a multipoint feature, then the z value of the first point will be "
+"returned. **WARNING: This function is deprecated. It is recommended to use "
+"the replacement z() function with @geometry variable instead.**"
+msgstr ""
+"現在のポイント地物が3Dの場合、そのz値を返します。地物がマルチポイント地物の場合は、最初のポイントの z 値が返されます。**警告: "
+"この関数は非推奨です。代わりに後継のz()関数を@geometry変数で使うことをお勧めします。**"
+
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:77
 msgid "``$z`` → 123"
 msgstr "``$z`` → 123"
@@ -11986,6 +12222,12 @@ msgstr "``z( geom_from_wkt( 'POINTZ(2 5 7)' ) )`` → 7"
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:105
 msgid "z_at"
 msgstr "z_at"
+
+#: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:107
+msgid ""
+"Retrieves a z coordinate of the geometry, or NULL if the geometry has no z "
+"value."
+msgstr "ジオメトリのz座標を取得します。ジオメトリがz値を持たない場合、NULLになります。"
 
 #: ../../docs/user_manual/expressions/expression_help/GeometryGroup.rst:113
 msgid "z_at(geometry, vertex)"
@@ -12114,11 +12356,23 @@ msgstr ""
 msgid "map_credits"
 msgstr "map_credits"
 
+#: ../../docs/user_manual/expressions/expression_help/Layout.rst:8
+msgid ""
+"Returns a list of credit (usage rights) strings for the layers shown in a "
+"layout, or specific layout map item."
+msgstr "レイアウトまたは特定のレイアウトマップアイテムに表示されているレイヤのクレジット（使用権）文字列のリストを返します。"
+
 #: ../../docs/user_manual/expressions/expression_help/Layout.rst:14
 msgid ""
 "map_credits([id], [include_layer_names=false], [layer_name_separator=': '])"
 msgstr ""
 "map_credits([id], [include_layer_names=false], [layer_name_separator=': '])"
+
+#: ../../docs/user_manual/expressions/expression_help/Layout.rst:18
+msgid ""
+"**id** - Map item ID. If not specified, the layers from all maps in the "
+"layout will be used."
+msgstr "**id** - マップアイテムID。指定されないときは、レイアウトにある全てのマップのレイヤが使われます。"
 
 #: ../../docs/user_manual/expressions/expression_help/Layout.rst:19
 msgid ""
@@ -12133,6 +12387,15 @@ msgid ""
 msgstr ""
 "**layer_name_separator** - include_layer_names が true "
 "の場合に、レイヤ名とクレジット文字列の間に挿入される文字列"
+
+#: ../../docs/user_manual/expressions/expression_help/Layout.rst:22
+msgid ""
+"``array_to_string( map_credits() )`` → comma separated list of layer credits"
+" for all layers shown in all map items in the layout, e.g 'CC-BY-NC, CC-BY-"
+"SA'"
+msgstr ""
+"``array_to_string( map_credits() )`` →  "
+"レイアウトにある全てのマップアイテム内に表示されている全てのレイヤのレイヤクレジットのコンマ区切りリスト。例： 'CC-BY-NC, CC-BY-SA'"
 
 #: ../../docs/user_manual/expressions/expression_help/Layout.rst:23
 msgid ""
@@ -12312,6 +12575,10 @@ msgstr "crs_definition: レイヤのCRSのProj4定義文字列"
 msgid "crs_description: layer CRS description"
 msgstr "crs_description: レイヤのCRSの名前"
 
+#: ../../docs/user_manual/expressions/expression_help/Map_Layers.rst:67
+msgid "crs_ellipsoid: acronym of the layer CRS ellipsoid"
+msgstr "crs_ellipsoid: レイヤCRS楕円体の頭字語"
+
 #: ../../docs/user_manual/expressions/expression_help/Map_Layers.rst:68
 msgid "extent: layer extent (as a geometry object)"
 msgstr "extent: レイヤの範囲（戻り値はジオメトリオブジェクト）"
@@ -12367,9 +12634,29 @@ msgstr ""
 msgid "load_layer"
 msgstr "load_layer"
 
+#: ../../docs/user_manual/expressions/expression_help/Map_Layers.rst:8
+msgid "Loads a layer by source URI and provider name."
+msgstr "ソースURIとプロバイダ名を使ってレイヤを読み込みます"
+
 #: ../../docs/user_manual/expressions/expression_help/Map_Layers.rst:14
 msgid "load_layer(uri, provider)"
 msgstr "load_layer(uri, provider)"
+
+#: ../../docs/user_manual/expressions/expression_help/Map_Layers.rst:16
+msgid "**uri** - layer source URI string"
+msgstr "**uri** - レイヤのソースURI文字列"
+
+#: ../../docs/user_manual/expressions/expression_help/Map_Layers.rst:17
+msgid "**provider** - layer data provider name"
+msgstr "**provider** - レイヤのデータプロバイダ名"
+
+#: ../../docs/user_manual/expressions/expression_help/Map_Layers.rst:19
+msgid ""
+"``layer_property(load_layer('c:/data/roads.shp', 'ogr'), 'feature_count')`` "
+"→ count of features from the c:/data/roads.shp vector layer"
+msgstr ""
+"``layer_property(load_layer('c:/data/roads.shp', 'ogr'), 'feature_count')`` "
+"→ c:/data/roads.shp ベクタレイヤからの地物の数"
 
 #: ../../docs/user_manual/expressions/functions_list.rst:775
 msgid "Maps Functions"
@@ -12656,7 +12943,7 @@ msgstr "map_to_hstore"
 
 #: ../../docs/user_manual/expressions/expression_help/Maps.rst:52
 msgid "Merge map elements into a hstore-formatted string."
-msgstr "マップ型オブジェクトをhstore形式の文字列に変換します。"
+msgstr "地図要素をhstore形式の文字列に結合します。"
 
 #: ../../docs/user_manual/expressions/expression_help/Maps.rst:58
 msgid "map_to_hstore(map)"
@@ -12676,13 +12963,29 @@ msgstr "``map_to_hstore(map('qgis','rocks'))`` → '\"qgis\"=>\"rocks\"'"
 msgid "map_to_html_dl"
 msgstr "map_to_html_dl"
 
+#: ../../docs/user_manual/expressions/expression_help/Maps.rst:72
+msgid "Merge map elements into a HTML definition list string."
+msgstr "地図要素をHTML定義リスト文字列に結合します。"
+
 #: ../../docs/user_manual/expressions/expression_help/Maps.rst:78
 msgid "map_to_html_dl(map)"
 msgstr "map_to_html_dl(map)"
 
+#: ../../docs/user_manual/expressions/expression_help/Maps.rst:82
+msgid ""
+"``map_to_html_dl(map('qgis','rocks'))`` → "
+"<dl><dt>qgis</dt><dd>rocks</dd></dl>"
+msgstr ""
+"``map_to_html_dl(map('qgis','rocks'))`` → "
+"<dl><dt>qgis</dt><dd>rocks</dd></dl>"
+
 #: ../../docs/user_manual/expressions/expression_help/Maps.rst:90
 msgid "map_to_html_table"
 msgstr "map_to_html_table"
+
+#: ../../docs/user_manual/expressions/expression_help/Maps.rst:92
+msgid "Merge map elements into a HTML table string."
+msgstr "地図要素をHTMLテーブル文字列に結合します。"
 
 #: ../../docs/user_manual/expressions/expression_help/Maps.rst:98
 msgid "map_to_html_table(map)"
@@ -14777,7 +15080,7 @@ msgid ""
 "replacement @feature variable instead.**"
 msgstr ""
 "現在評価されている地物を返します。'attribute' 関数と併用することで、現在の地物から属性値を評価することができます。**警告: "
-"この関数は非推奨です。代わりに代替の@feature変数を使用することが推奨されます。**"
+"この関数は非推奨です。代わりに@feature変数を使うことをお勧めします。**"
 
 #: ../../docs/user_manual/expressions/expression_help/Record_and_Attributes.rst:16
 msgid ""
@@ -15015,7 +15318,7 @@ msgstr "$id"
 msgid ""
 "Returns the feature id of the current row. **WARNING: This function is "
 "deprecated. It is recommended to use the replacement @id variable instead.**"
-msgstr "現在の行の地物IDを返します。**警告: この関数は非推奨です。代わりに代替の@id変数を使用することをお勧めします。**"
+msgstr "現在の行の地物IDを返します。**警告: この関数は非推奨です。代わりに@id変数を使うことをお勧めします。**"
 
 #: ../../docs/user_manual/expressions/expression_help/Record_and_Attributes.rst:16
 msgid "``$id`` → 42"
@@ -15898,6 +16201,14 @@ msgstr "ltrim(string, [characters=' '])"
 msgid "**string** - string to trim"
 msgstr "**string** - 空白を削除したい文字列"
 
+#: ../../docs/user_manual/expressions/expression_help/String.rst:240
+msgid "``ltrim('   hello world  ')`` → 'hello world  '"
+msgstr "``ltrim('   hello world  ')`` → 'hello world  '"
+
+#: ../../docs/user_manual/expressions/expression_help/String.rst:241
+msgid "``ltrim('zzzytest', 'xyz')`` → 'test'"
+msgstr "``ltrim('zzzytest', 'xyz')`` → 'test'"
+
 #: ../../docs/user_manual/expressions/functions_list.rst:1050
 msgid ""
 "Further reading: :ref:`expression_function_String_rtrim`, "
@@ -16111,6 +16422,14 @@ msgstr "rtrim"
 #: ../../docs/user_manual/expressions/expression_help/String.rst:170
 msgid "rtrim(string, [characters=' '])"
 msgstr "rtrim(string, [characters=' '])"
+
+#: ../../docs/user_manual/expressions/expression_help/String.rst:177
+msgid "``rtrim('   hello world  ')`` → '   hello world'"
+msgstr "``rtrim('   hello world  ')`` → '   hello world'"
+
+#: ../../docs/user_manual/expressions/expression_help/String.rst:178
+msgid "``rtrim('testxxzx', 'xyz')`` → 'test'"
+msgstr "``rtrim('testxxzx', 'xyz')`` → 'test'"
 
 #: ../../docs/user_manual/expressions/functions_list.rst:1057
 msgid ""

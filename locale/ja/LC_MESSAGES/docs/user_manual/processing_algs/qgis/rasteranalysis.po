@@ -2748,6 +2748,10 @@ msgstr "9 -- CFloat32 （複素数 Float32）"
 msgid "10 --- CFloat64   (Complex Float64)"
 msgstr "10 -- CFloat64 （複素数 Float64）"
 
+#: ../../docs/user_manual/processing_algs/algs_include.rst:18
+msgid "11 --- Int8       (Eight bit signed integer (qint8))"
+msgstr "11 --- Int8       （符号あり8ビット整数(qint8)）"
+
 #: ../../docs/user_manual/processing_algs/algs_include.rst:20
 msgid ""
 "Available options depend on the GDAL version built with QGIS (see "

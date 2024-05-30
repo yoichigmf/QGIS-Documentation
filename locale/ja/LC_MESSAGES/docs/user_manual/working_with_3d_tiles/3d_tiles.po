@@ -36,6 +36,10 @@ msgstr ""
 "<https://qgis.org/en/site/getinvolved/translate.html#becoming-a-"
 "translator>`_ コミュニティの取り組みです。このページは現在 |translation progress| 翻訳されています。"
 
+#: ../../docs/user_manual/working_with_3d_tiles/3d_tiles.rst:6
+msgid "Working with 3D Tiles"
+msgstr "3Dタイルの操作"
+
 #: ../../docs/user_manual/working_with_3d_tiles/3d_tiles.rst:249
 msgid "metadata"
 msgstr "metadata"

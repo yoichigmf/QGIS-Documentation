@@ -8,6 +8,7 @@
 # tomoyuki arai <tarai.3367@gmail.com>, 2024
 # Harrissou Sant-anna, 2024
 # tomoya miyoshi, 2024
+# Mihiro Takizawa, 2024
 # 
 #, fuzzy
 msgid ""
@@ -16,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-06 17:56+0000\n"
 "PO-Revision-Date: 2024-03-02 11:58+0000\n"
-"Last-Translator: tomoya miyoshi, 2024\n"
+"Last-Translator: Mihiro Takizawa, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/qgis/teams/6144/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -114,25 +115,55 @@ msgstr "addVectorTileLayer"
 msgid "Vector Tiles Dataset Properties"
 msgstr "ベクタタイルデータセットのプロパティ"
 
+#: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:57
+msgid ""
+"The vector tiles :guilabel:`Layer Properties` dialog provides the following "
+"sections:"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:61
+msgid "|metadata| :ref:`Information <vectortilesinformationmenu>`"
+msgstr ""
+
 #: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:236
 msgid "metadata"
 msgstr "metadata"
+
+#: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:62
+msgid "|system| :ref:`Source <vectortilessourcemenu>`"
+msgstr ""
 
 #: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:252
 msgid "system"
 msgstr "system"
 
+#: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:63
+msgid "|symbology| :ref:`Symbology <vectortilesstylesmenu>`:sup:`[1]`"
+msgstr ""
+
 #: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:244
 msgid "symbology"
 msgstr "symbology"
+
+#: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:64
+msgid "|labelingSingle| :ref:`Labels <vectortilesstylesmenu>`:sup:`[1]`"
+msgstr ""
 
 #: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:232
 msgid "labelingSingle"
 msgstr "labelingSingle"
 
+#: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:65
+msgid "|rendering| :ref:`Rendering <vectortilesrenderingmenu>`"
+msgstr ""
+
 #: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:238
 msgid "rendering"
 msgstr "rendering"
+
+#: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:66
+msgid "|editMetadata| :ref:`Metadata <vectortilesmetadatamenu>`"
+msgstr ""
 
 #: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:230
 msgid "editMetadata"
@@ -180,17 +211,108 @@ msgstr ""
 msgid "Source Properties"
 msgstr "ソースプロパティ"
 
+#: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:92
+msgid ""
+"The |system| :guilabel:`Source` tab displays basic information about the "
+"selected vector tile, including:"
+msgstr ""
+
 #: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:95
 msgid "the :guilabel:`Layer name` to display in the :guilabel:`Layers Panel`;"
 msgstr ":guilabel:`レイヤパネル` で表示される :guilabel:`レイヤ名`"
+
+#: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:96
+msgid ""
+"the :guilabel:`Coordinate Reference System`: Displays the layer's "
+":ref:`Coordinate Reference System (CRS) <layer_crs>`. You can change the "
+"layer's CRS, by selecting a recently used one in the drop-down list or "
+"clicking on the |setProjection| :sup:`Select CRS` button (see "
+":ref:`crs_selector`). Use this process only if the layer CRS is wrong or not"
+" specified."
+msgstr ""
 
 #: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:242
 msgid "setProjection"
 msgstr "setProjection"
 
+#: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:109
+msgid "Vector Tiles Properties - Source Dialog"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:115
+msgid "Symbology and Labels Properties"
+msgstr ""
+
 #: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:123
 msgid "Vector Tile Layer Symbology"
 msgstr "ベクタタイルレイヤのシンボロジ"
+
+#: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:126
+msgid "Setting rules"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:128
+msgid ""
+"As vector tiles consist of point, line and polygon geometries, the "
+"respective symbols are available. To apply a cartographic style (with "
+"symbology and/or labels), you can either:"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:131
+msgid ""
+"Use a :guilabel:`Style URL` when creating the :ref:`Vector Tiles Connection "
+"<vector_tiles>`. The symbology will be shown immediately in the |symbology| "
+":guilabel:`Symbology` tab after the layer is loaded in QGIS."
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:134
+msgid ""
+"Or build your own symbology and labeling in the corresponding tabs of the "
+"layer properties. By default, QGIS assigns an identical symbol to the "
+"features based on their geometry type."
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:137
+msgid ""
+"In both cases, setting a style for a vector tile relies on a set of "
+":ref:`rules <rule_based_rendering>` applied to the features, indicating:"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:140
+msgid "a vector :ref:`symbol <symbol-selector>` or :ref:`label <showlabels>`"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:141
+msgid ""
+"a :guilabel:`Label`, a title for comprehensive identification of the rule"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:142
+msgid ""
+"the name of a particular :guilabel:`Layer` the rule should apply to, if not "
+"applied to ``(all layers)``"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:143
+msgid ""
+"a :guilabel:`Min. Zoom` and a :guilabel:`Max. Zoom`, for the range of "
+"display. Symbology and labeling can be dependent on the zoom level."
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:145
+msgid ""
+"a :guilabel:`Filter`, a QGIS expression to identify the features to apply "
+"the style to"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:147
+msgid ""
+"Each rule is added pressing the |symbologyAdd| :sup:`Add rule` button and "
+"selecting the type of symbols (:guilabel:`Marker`, :guilabel:`Line`, "
+":guilabel:`Fill`) corresponding to the features geometry type. You can as "
+"well |symbologyRemove| :sup:`Remove selected rules` or |symbologyEdit| "
+":sup:`Edit current rule`."
+msgstr ""
 
 #: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:246
 msgid "symbologyAdd"
@@ -204,6 +326,17 @@ msgstr "symbologyRemove"
 msgid "symbologyEdit"
 msgstr "symbologyEdit"
 
+#: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:152
+msgid ""
+"At the bottom the :guilabel:`Current Zoom` is shown. Check the |unchecked| "
+":guilabel:`Visible rules only` option at the top of the dialog to filter the"
+" list of rules to only those that are visible at the current zoom level. "
+"This makes it easier to work with complex vector styling and to locate "
+"troublesome rules. The |search| :guilabel:`Filter rules` text box also helps"
+" you easily find a rule, by searching the :guilabel:`Label`, "
+":guilabel:`Layer` and :guilabel:`Filter` fields."
+msgstr ""
+
 #: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:254
 msgid "unchecked"
 msgstr "unchecked"
@@ -212,9 +345,22 @@ msgstr "unchecked"
 msgid "search"
 msgstr "search"
 
+#: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:159
+msgid ""
+"In :numref:`figure_vector_tile_symbology` we set up style for the "
+"OpenStreetMap ``landuse`` layer. For better visibility most of the rules are"
+" deselected."
+msgstr ""
+
 #: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:163
 msgid "Layer rendering"
 msgstr "レイヤレンダリング"
+
+#: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:165
+msgid ""
+"From the :guilabel:`Symbology` tab, you can also set some options that "
+"invariably act on all features of the layer:"
+msgstr ""
 
 #: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:168
 msgid ""
@@ -226,9 +372,28 @@ msgstr ""
 ":guilabel:`不透明度` "
 "：このツールを使用すると、マップキャンバスで背面にあるレイヤを見えるようにできます。スライダーを使用して、レイヤの見え方を必要に応じて変化させてください。スライダーの横にあるメニューで不透明度の割合を正確に定義することもできます。"
 
+#: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:171
+msgid ""
+":guilabel:`Blending mode`: You can achieve special rendering effects with "
+"these tools that you may previously only know from graphics programs. The "
+"pixels of your overlaying and underlaying layers are mixed through the "
+"settings described in :ref:`blend-modes`."
+msgstr ""
+
 #: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:177
 msgid "Styles"
 msgstr "スタイル"
+
+#: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:179
+msgid ""
+"Available at the bottom of most of the tabs, the :menuselection:`Styles -->`"
+" menu provides shortcuts to save, load, create, switch styles to apply to "
+"the vector tiles. Vector tiles can have their style saved from QGIS as "
+":guilabel:`QML` files and they can be imported as:"
+msgstr ""
+"ほとんどのタブの下部にある :menuselection:`Styles -->` "
+"メニューは、ベクタータイルに適用するスタイルの保存、読み込み、作成、切り替えのショートカットを提供します。ベクタータイルのスタイルはQGISから "
+":guilabel:`QML` ファイルとして保存することができ、インポートすることもできます："
 
 #: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:184
 msgid ":guilabel:`QML` files (:ref:`qgisstylefile`)"
@@ -238,13 +403,31 @@ msgstr ":guilabel:`QML` ファイル（ :ref:`qgisstylefile` ）"
 msgid ":guilabel:`MapBox GL Json` style configuration files"
 msgstr ":guilabel:`MapBox GL JSON` スタイル設定ファイル"
 
+#: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:187
+msgid "More details at :ref:`save_layer_property`."
+msgstr ""
+
 #: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:192
 msgid "Rendering Properties"
 msgstr "レンダリングプロパティ"
 
+#: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:194
+msgid ""
+"Under |unchecked| :guilabel:`Scale dependent visibility`, you can set the "
+":guilabel:`Maximum (inclusive)` and :guilabel:`Minimum (exclusive)` scales, "
+"defining a range of scales in which features will be visible. Out of this "
+"range, they are hidden. The |mapIdentification| :sup:`Set to current canvas "
+"scale` button helps you use the current map canvas scale as boundary of the "
+"range visibility. See :ref:`label_scaledepend` for more information."
+msgstr ""
+
 #: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:234
 msgid "mapIdentification"
 msgstr "mapIdentification"
+
+#: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:208
+msgid "Vector Tiles Properties - Rendering Dialog"
+msgstr ""
 
 #: ../../docs/user_manual/working_with_vector_tiles/vector_tiles.rst:215
 msgid "Metadata Properties"
